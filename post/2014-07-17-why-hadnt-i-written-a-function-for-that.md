@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2014-07-17 04:05:35+00:00
-layout: post
-link: http://kbroman.org/blog/2014/07/16/why-hadnt-i-written-a-function-for-that/
-slug: why-hadnt-i-written-a-function-for-that
 title: Why hadn't I written a function for that?
-wordpress_id: 2140
+author: Karl Broman
+date: '2014-07-16'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- code
-- programming
+  - code
+  - programming
+slug: why-hadnt-i-written-a-function-for-that
 ---
 
 I'm often typing the same bits of code over and over. Those bits of code really should be made into functions.
@@ -21,10 +17,10 @@ For example, I'm still using base graphics. ([ggplot2](http://ggplot2.org) is on
 
 So I'll write the following:
 
-[sourcecode]
+````
 u <- par("usr")
 rect(u[1], u[3], u[2], u[4])
-[/sourcecode]
+````
 
 I don't know _how_ many times I've typed that! Today I realized that I should put those two lines in a function `add_border()`. And then I added `add_border()` to my [R/broman package](http://github.com/kbroman/broman).
 

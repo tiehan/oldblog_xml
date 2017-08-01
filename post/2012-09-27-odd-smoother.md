@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2012-09-27 13:31:28+00:00
-layout: post
-link: http://kbroman.org/blog/2012/09/27/odd-smoother/
-slug: odd-smoother
 title: Odd smoother
-wordpress_id: 1092
+author: Karl Broman
+date: '2012-09-27'
 categories:
-- Genetics
-- Statistics
+  - Genetics
+  - Statistics
 tags:
-- graphics
-- papers
+  - graphics
+  - papers
+slug: odd-smoother
 ---
 
 I was flipping though the contents of [G3](http://g3journal.org) and saw [this paper](http://g3journal.org/content/2/9/1019.abstract), which includes [Jim Cheverud](http://thalamus.wustl.edu/cheverudlab/) as an author.

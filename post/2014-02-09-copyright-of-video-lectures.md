@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2014-02-09 19:30:33+00:00
-layout: post
-link: http://kbroman.org/blog/2014/02/09/copyright-of-video-lectures/
-slug: copyright-of-video-lectures
 title: Copyright of video lectures
-wordpress_id: 2015
+author: Karl Broman
+date: '2014-02-09'
 categories:
-- Academics
+  - Academics
 tags:
-- copyright
-- open access
-- teaching
+  - copyright
+  - open access
+  - teaching
+slug: copyright-of-video-lectures
 ---
 
 Quite a while back, I was wondering about copyright of video lectures produced by university faculty. In particular, did I need to get the university to sign some sort of waiver in order for the Jackson Laboratory to post a video of a lecture I'd given for a course there? (The Jackson Lab lawyers wanted that.)

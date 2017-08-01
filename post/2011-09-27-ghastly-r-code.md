@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2011-09-27 15:21:36+00:00
-layout: post
-link: http://kbroman.org/blog/2011/09/27/ghastly-r-code/
-slug: ghastly-r-code
 title: Ghastly R code
-wordpress_id: 372
+author: Karl Broman
+date: '2011-09-27'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- stupid
+  - stupid
+slug: ghastly-r-code
 ---
 
 My R package, [R/qtl](http://www.rqtl.org), contains about 33k lines of R code (and 21k lines of C code).  Some of it is quite good; [some of it is terrible](http://kbroman.org/blog/2011/08/17/the-stupidest-r-code-ever/).  Here's another example of the terrible.

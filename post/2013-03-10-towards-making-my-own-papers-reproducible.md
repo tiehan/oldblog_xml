@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-10 14:08:04+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/10/towards-making-my-own-papers-reproducible/
-slug: towards-making-my-own-papers-reproducible
 title: Towards making my own papers reproducible
-wordpress_id: 1465
+author: Karl Broman
+date: '2013-03-10'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- papers
-- reproducible research
+  - papers
+  - reproducible research
+slug: towards-making-my-own-papers-reproducible
 ---
 
 Much has been written about [reproducible research](http://magazine.amstat.org/blog/2011/01/01/scipolicyjan11/): that scientific papers should be accompanied by the data and software sufficient to reproduce the results.  It's obviously a _Good Thing_.  But it can be hard to stick to this ideal in practice.
@@ -37,13 +33,8 @@ So that's my goal: to focus first on _minimal accessibility_ of the code and dat
 
 One last point: I use local [git](http://git-scm.com) repositories for my draft analyses and for the whole process of writing a paper.  I could post that whole history, but [as I said before](http://kbroman.org/blog/2011/08/17/the-stupidest-r-code-ever/):
 
-
-
-<blockquote>Open source means everyone can see my stupid mistakes. Version control means everyone can see every stupid mistake I’ve ever made.</blockquote>
-
-
+<blockquote>Open source means everyone can see my stupid mistakes. Version control means everyone can see every stupid mistake I've ever made.</blockquote>
 
 It would be easy to make my working repository public, but it would include things like referees' reports and my responses to them, as well as the gory details on all of the stupid things that I might do along the way to publication.
 
 I'm more comfortable releasing just a snapshot of the final product.
-

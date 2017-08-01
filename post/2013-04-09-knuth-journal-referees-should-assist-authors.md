@@ -1,33 +1,21 @@
 ---
-author: kbroman
-comments: true
-date: 2013-04-09 03:09:37+00:00
-layout: post
-link: http://kbroman.org/blog/2013/04/08/knuth-journal-referees-should-assist-authors/
-slug: knuth-journal-referees-should-assist-authors
 title: 'Knuth: Journal referees should assist authors'
-wordpress_id: 1645
+author: Karl Broman
+date: '2013-04-08'
 categories:
-- Academics
+  - Academics
 tags:
-- peer review
+  - peer review
+slug: knuth-journal-referees-should-assist-authors
 ---
 
 When serving as referee for a journal, who are you working for?
 
-
-
-
-
   * _The editor_: Will the paper add to the journal's prestige?
-
 
   * _The reader_: Is it worth reading?
 
-
   * _The author_: How can it be improved?
-
-
 
 I'd long thought that the referee's duty was to the journal editors and then to the readers.
 
@@ -42,8 +30,3 @@ Almost immediately after I first read Donald Knuth's comments (back in 2002), I 
 It was hard for me to say, "You have no idea what you're doing" in a constructive way. ("You should abandon this manuscript" is not constructive, but it could be good advice. The scientific literature could use a bit more self-censorship.)
 
 And I've learned to use the "Comments to the editor" as my opportunity to vent. (I would pity the poor editor on the other end, but she/he sent the thing to me!) I'd give an example of my venting, but I think I'll leave that to another time.
-
-
-
-
-

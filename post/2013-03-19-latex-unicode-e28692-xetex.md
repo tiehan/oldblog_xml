@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-19 13:18:03+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/19/latex-unicode-%e2%86%92-xetex/
-slug: latex-unicode-%e2%86%92-xetex
 title: LaTeX + Unicode → XeTeX
-wordpress_id: 1512
+author: Karl Broman
+date: '2013-03-19'
 categories:
-- Academics
-- Programming
+  - Academics
+  - Programming
 tags:
-- Latex
-- unicode
+  - Latex
+  - unicode
+slug: latex-unicode-%e2%86%92-xetex
 ---
 
 I'm co-organizing [a scientific meeting](http://www.ctc2013.org) at the end of May.  The abstracts are all in.
@@ -21,7 +17,7 @@ We get them in an Excel file, and I was working on a Perl script to parse the fi
 
 I spent way too much time trying to deal with special characters.  I was looking to do a search-and-replace for all possible [Unicode](http://en.wikipedia.org/wiki/Unicode) characters (for example, to change `\xE9` aka e into `\'{e}`, or `\xD7` aka × into `$\times$`).
 
-[![MBT/Pas × BALB/cByJ](http://kbroman.files.wordpress.com/2013/03/times_symbol.png)](http://kbroman.files.wordpress.com/2013/03/times_symbol.png)
+![MBT/Pas × BALB/cByJ](http://kbroman.files.wordpress.com/2013/03/times_symbol.png)
 
 But then I discovered that [XeTeX](http://en.wikipedia.org/wiki/XeTeX) supports Unicode, so there's no need to do these sorts of substitutions.
 

@@ -1,19 +1,15 @@
 ---
-author: kbroman
-comments: true
-date: 2012-02-01 22:00:49+00:00
-layout: post
-link: http://kbroman.org/blog/2012/02/01/elsevier-boycott/
-slug: elsevier-boycott
 title: Elsevier boycott
-wordpress_id: 660
+author: Karl Broman
+date: '2012-02-01'
 categories:
-- Academics
+  - Academics
 tags:
-- open access
-- peer review
-- publishing
-- writing
+  - open access
+  - peer review
+  - publishing
+  - writing
+slug: elsevier-boycott
 ---
 
 I expect you've already heard about the [Elsevier boycott](http://thecostofknowledge.com), started based on comments from [Timothy Gowers](http://gowers.wordpress.com/2012/01/21/elsevier-my-part-in-its-downfall/).  While he focused on his own discipline (mathematics), the boycott site now has people broken down by subject.  On 1 Feb, there were 2700+ signatories, including 600+ mathematicians (but only 15 statisticians).  There have been a couple of articles about this in the [Chronicle of Higher Education](http://chronicle.com/): [here](http://chronicle.com/blogs/wiredcampus/elsevier-publishing-boycott-gathers-steam-among-academics/35216) and [here](http://chronicle.com/article/As-Journal-Boycott-Grows/130600/?sid=wc).
@@ -26,9 +22,6 @@ I prefer society-related journals.  These days, my own papers all go to my favor
 <!-- more -->
 
 I looked back at my reviews of journal articles in 2011.  I did 23.  They were for:
-
-
-
 
   * Various [BMC](http://www.biomedcentral.com) journals (open access but mostly crappy)
 
@@ -52,15 +45,11 @@ I looked back at my reviews of journal articles in 2011.  I did 23.  They were f
 
   * Various [PLoS](http://www.plos.org/) journals (open access)
 
-
 I did okay.  I am down on Springer and Wiley, too, in spite of the fact that I published [a book with Springer](http://www.rqtl.org/book) (and I like many of their books), but most of the above are society or open-access journals and there's just one Elsevier journal.
 
 In the list of mathematics/statistics journals published by Elsevier, I only recognize _Computational Statistics & Data Analysis_ and _Journal of Statistical Planning and Inference_.  _Genomics_ and _Trends in Genetics_ are their only genetics journals that I recognize, but I didn't look so closely.  [I later realized that the American Journal of Human Genetics is published by Elsevier; that's a big one.]
 
 In terms of [my publications](http://www.biostat.wisc.edu/~kbroman/publications/), looking at 2011, 2012 and in press articles, I have 13.  Several of the journals were listed above: [PLoS](http://www.plos.org), [Genome Research](http://genome.cshlp.org/), [BMC](http://www.biomedcentral.com), [Genetics](http://www.genetics.org)/[G3](http://www.g3journal.org/).  In addition:
-
-
-
 
   * [Molecular Ecology](http://www.wiley.com/bw/journal.asp?ref=0962-1083) (Wiley)
 
@@ -71,6 +60,5 @@ In terms of [my publications](http://www.biostat.wisc.edu/~kbroman/publications/
   * [Mammalian Genome](http://www.springer.com/life+sciences/cell+biology/journal/335) ([IMGS](http://imgs.org); published by Springer)
 
   * [Bioinformatics](http://bioinformatics.oxfordjournals.org/) ([ISCB](http://www.iscb.org/); published by Oxford UP)
-
 
 So, again, I did okay.

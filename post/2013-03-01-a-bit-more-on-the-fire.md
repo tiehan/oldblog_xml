@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-01 14:29:44+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/01/a-bit-more-on-the-fire/
-slug: a-bit-more-on-the-fire
 title: A bit more on the fire
-wordpress_id: 1355
+author: Karl Broman
+date: '2013-03-01'
 categories:
-- News
+  - News
 tags:
-- news
+  - news
+slug: a-bit-more-on-the-fire
 ---
 
 The [Daily Cardinal](http://host.madison.com/daily-cardinal/) reports that [there were no overhead sprinklers](http://tinyurl.com/cuyhdtl) in the area of the fire yesterday.  Fire fighters thought that sprinklers had gone off, but it was really a broken water pipe.

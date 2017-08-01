@@ -1,20 +1,16 @@
 ---
-author: kbroman
-comments: true
-date: 2013-05-10 16:35:03+00:00
-layout: post
-link: http://kbroman.org/blog/2013/05/10/tutorials-on-gitgithub-and-gnu-make/
-slug: tutorials-on-gitgithub-and-gnu-make
 title: Tutorials on git/github and GNU make
-wordpress_id: 1760
+author: Karl Broman
+date: '2013-05-10'
 categories:
-- Programming
-- R
-- Statistics
+  - Programming
+  - R
+  - Statistics
 tags:
-- programming
-- reproducible research
-- teaching
+  - programming
+  - reproducible research
+  - teaching
+slug: tutorials-on-gitgithub-and-gnu-make
 ---
 
 If you're not using version control, you should be.  _Learn [git](http://git-scm.com)_.
@@ -25,11 +21,11 @@ To help some colleagues get started with [git](http://git-scm.com) and [github](
 
 And for [R](http://r-project.org) folks, note that it's easy to install R packages that are hosted on github, using [Hadley Wickham](http://had.co.nz)'s [devtools](https://github.com/hadley/devtools) package.  For example, to install [Nacho Caballero](https://github.com/nachocab)'s [clickme](https://github.com/nachocab/clickme) package:
 
-[sourcecode language="r"]
+````r
 install.packages("devtools")
 library(devtools)
 install_github("clickme", "nachocab")
-[/sourcecode]
+````
 
 Having written that git/github tutorial, I thought: I should write more such!
 

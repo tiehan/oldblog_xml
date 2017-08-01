@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2011-11-08 00:33:55+00:00
-layout: post
-link: http://kbroman.org/blog/2011/11/07/sports-statistics/
-slug: sports-statistics
 title: Sports statistics
-wordpress_id: 597
+author: Karl Broman
+date: '2011-11-07'
 categories:
-- Statistics
+  - Statistics
 tags:
-- teaching
+  - teaching
+slug: sports-statistics
 ---
 
 There was [an article](http://www.nytimes.com/2011/11/06/education/edlife/at-moneyball-u-what-are-the-odds.html) in the New York Times on Sunday about teaching statistics through sports examples.

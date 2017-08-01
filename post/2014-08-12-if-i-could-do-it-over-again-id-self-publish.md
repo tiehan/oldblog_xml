@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2014-08-12 20:52:55+00:00
-layout: post
-link: http://kbroman.org/blog/2014/08/12/if-i-could-do-it-over-again-id-self-publish/
-slug: if-i-could-do-it-over-again-id-self-publish
 title: If I could do it over again, I'd self-publish
-wordpress_id: 2164
+author: Karl Broman
+date: '2014-08-12'
 categories:
-- Things that annoy me
+  - Things that annoy me
 tags:
-- publishing
-- stupid
+  - publishing
+  - stupid
+slug: if-i-could-do-it-over-again-id-self-publish
 ---
 
 In 2009, [Śaunak Sen](http://www.epibiostat.ucsf.edu/biostat/sen/) and I wrote a [book](http://www.rqtl.org) about QTL mapping and the [R/qtl](http://www.rqtl.org) software. We started working on it in the fall of 2006, and it was a heck of a lot of work.
@@ -30,18 +26,11 @@ I have a hard time recommending the book at that price; I'm tempted to help peop
 
 I corresponded with an editor at Springer, on why our book has become so expensive and whether there's anything we can do about it. They responded
 
-
-
-
   * If we do a new edition, it could be listed as $129.
-
 
   * If the book is adopted by university classes, "the pricing grid it is based on would have lower prices."
 
-
   * Our book is available electronically, for purchase by chapter as well.
-
-
 
 Purchase by chapter? Yeah, for [$30 per chapter!](http://link.springer.com/book/10.1007/978-0-387-92125-9)
 

@@ -1,25 +1,21 @@
 ---
-author: kbroman
-comments: true
-date: 2012-11-21 13:30:03+00:00
-layout: post
-link: http://kbroman.org/blog/2012/11/21/the-hopkins-sph-logo-part-2/
-slug: the-hopkins-sph-logo-part-2
 title: The Hopkins SPH logo, part 2
-wordpress_id: 1199
+author: Karl Broman
+date: '2012-11-21'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- seminars
-- stupid
+  - seminars
+  - stupid
+slug: the-hopkins-sph-logo-part-2
 ---
 
 Last week, I wrote about the [Johns Hopkins **Bloomberg** School of Public Health logo](http://kbroman.org/blog/2012/11/16/the-hopkins-sph-logo-part-1/).  I now present part 2 of the story.
 
 Hopkins SPH had done some fancy renovations of part of the building, including an important new feature, the "[Wall of Wonder](http://www.jhsph.edu/offices-and-services/marketing-and-communications/policies/wall_of_wonder.html)": a big display composed of nine LCD screens in the atrium of the building, to display various PR type stuff.  ("Wall of Wonder" (WOW) is the official name!  Consider the [Wall of Wonder policies](http://www.jhsph.edu/offices-and-services/marketing-and-communications/policies/wall_of_wonder.html), inspired by the events I detail below.) Here's a photo:
 
-[![](http://www.biostat.wisc.edu/~kbroman/presentations/graphs_photos/IMG_0213a.jpg)](http://www.biostat.wisc.edu/~kbroman/presentations/graphs_photos/IMG_0213a.jpg)
+![](http://www.biostat.wisc.edu/~kbroman/presentations/graphs_photos/IMG_0213a.jpg)
 
 <!-- more -->
 
@@ -29,11 +25,11 @@ I volunteered to do the first one, on "How to display data badly," a lecture I'd
 
 The concept of my talk was to take a reasonably good graph, like this:
 
-[![](http://kbroman.files.wordpress.com/2012/11/fig1a.png?w=300)](http://kbroman.files.wordpress.com/2012/11/fig1a.png)
+![](http://kbroman.files.wordpress.com/2012/11/fig1a.png)
 
 and then show how to turn it into a terrible graph, like this:
 
-[![](http://kbroman.files.wordpress.com/2012/11/fig1h.png?w=300)](http://kbroman.files.wordpress.com/2012/11/fig1h.png)
+![](http://kbroman.files.wordpress.com/2012/11/fig1h.png)
 
 In addition, as an ancillary commentary on the use of gratuitous animation in slides, I animated [the School's logo](http://kbroman.org/blog/2012/11/16/the-hopkins-sph-logo-part-1/) on each slide, with those animations becoming increasingly intrusive as the talk went on.  Then, at the summary slide, it was flying all around.  I wasn't going to refer to the logo in any way, or say anything about slide animations at all.  I just thought it would be a funny backdrop.
 
@@ -41,34 +37,26 @@ Well, to get the slides on the computer that drives the big screen, you need to 
 
 Of course, the animated logo was gone.  But also my slides had a blue background, while the School's template had a light background, and so all of my "nice" figures looked terrible, being big blue rectangles in the middle of a light background.  And this was a talk about good (well, actually bad) graphics!
 
-I could tell it would take all the time I had left before the talk to fix the figures, so I had to choose: 
-
-
+I could tell it would take all the time I had left before the talk to fix the figures, so I had to choose:
 
   * Fight, but probably lose, and then be stuck with ugly slides.
 
   * Cave in, and clean up the slides.
 
-
 I wish I could say I chose the former option, but I'm weak, and I chose the latter.
 
 After, there was considerable discussion in the Dean's office about my "abuse" of the School's logo.  And they created [a formal policy](http://www.jhsph.edu/offices-and-services/marketing-and-communications/policies/wall_of_wonder.html) on the use of the Wall of Wonder, which includes:
 
-
-
 <blockquote>When there are School events that involve external audiences the Office of External Affairs will manage the content of the Wall so that it is appropriate for the event.</blockquote>
-
-
 
 You can see the slides as presented, as well as the "Director's Cut", at [my web page](http://www.biostat.wisc.edu/~kbroman/presentations/index.html#wow).
 
 Here's a slide from the Director's Cut (the colors matched better originally; that they don't now is an instance of one of the many reasons I hate PowerPoint):
 
-[![](http://kbroman.files.wordpress.com/2012/11/before.png?w=300)](http://kbroman.files.wordpress.com/2012/11/before.png)
+![](http://kbroman.files.wordpress.com/2012/11/before.png)
 
 And here's how it was presented:
 
-[![](http://kbroman.files.wordpress.com/2012/11/after.png?w=300)](http://kbroman.files.wordpress.com/2012/11/after.png)
+![](http://kbroman.files.wordpress.com/2012/11/after.png)
 
 Related posts on the Hopkins SPH logo: [part 1](http://kbroman.org/blog/2012/11/16/the-hopkins-sph-logo-part-1) | [part 3](http://kbroman.org/blog/2013/03/06/the-hopkins-sph-logo-part-3-karls-revenge/)
-

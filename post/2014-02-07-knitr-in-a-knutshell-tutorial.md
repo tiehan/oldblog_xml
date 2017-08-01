@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2014-02-07 05:57:36+00:00
-layout: post
-link: http://kbroman.org/blog/2014/02/06/knitr-in-a-knutshell-tutorial/
-slug: knitr-in-a-knutshell-tutorial
 title: knitr in a knutshell tutorial
-wordpress_id: 1999
+author: Karl Broman
+date: '2014-02-06'
 categories:
-- R
-- Statistics
+  - R
+  - Statistics
 tags:
-- knitr
-- reproducible research
+  - knitr
+  - reproducible research
+slug: knitr-in-a-knutshell-tutorial
 ---
 
 I spent a lot of time this week writing a short tutorial on [knitr](http://yihui.name/knitr/): [knitr in a knutshell](http://kbroman.github.io/knitr_knutshell).

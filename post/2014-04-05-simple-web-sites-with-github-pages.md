@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2014-04-05 14:00:22+00:00
-layout: post
-link: http://kbroman.org/blog/2014/04/05/simple-web-sites-with-github-pages/
-slug: simple-web-sites-with-github-pages
 title: Simple web sites with GitHub Pages
-wordpress_id: 2049
+author: Karl Broman
+date: '2014-04-05'
 categories:
-- Academics
-- Programming
+  - Academics
+  - Programming
 tags:
-- github
-- websites
+  - github
+  - websites
+slug: simple-web-sites-with-github-pages
 ---
 
 If you love [git](http://git-scm.com) and [GitHub](http://github.com), you'll also love [GitHub Pages](http://pages.github.com), for producing websites using [Markdown](https://daringfireball.net/projects/markdown/) and [git](http://git-scm.com): you write pages in Markdown within a `gh-pages` branch in a git repository; when you push to GitHub, a corresponding site is automatically constructed.
@@ -23,14 +19,11 @@ Last night, I wrote a [minimal tutorial](http://kbroman.github.io/simple_site) o
 
 In the tutorial, I wrote:
 
-
 <blockquote>(For example, I don't like how simple code is rendered in red within a gray box. Ultimately I'll try to figure out how to change that, but for now I just pretend that I like it that way.)</blockquote>
-
-
 
 But this morning, I figured out how to change that: create [my own css file](https://github.com/kbroman/simple_site/blob/gh-pages/assets/themes/twitter/css/kbroman.css) with the following code:
 
-[sourcecode]
+````
 code {
   padding: 0;
   font-size: 90%;
@@ -38,6 +31,6 @@ code {
   background-color: white;
   border: 0px solid white;
 }
-[/sourcecode]
+````
 
 And then [add a line](https://github.com/kbroman/simple_site/blob/gh-pages/_includes/themes/twitter/default.html#L20) to the [`default.html`](https://github.com/kbroman/simple_site/blob/gh-pages/_includes/themes/twitter/default.html) file.

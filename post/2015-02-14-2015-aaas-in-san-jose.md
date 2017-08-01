@@ -1,45 +1,29 @@
 ---
-author: kbroman
-comments: true
-date: 2015-02-14 05:38:03+00:00
-layout: post
-link: http://kbroman.org/blog/2015/02/13/2015-aaas-in-san-jose/
-slug: 2015-aaas-in-san-jose
 title: 2015 AAAS in San Jose
-wordpress_id: 2307
+author: Karl Broman
+date: '2015-02-13'
 categories:
-- Academics
+  - Academics
 tags:
-- conference
+  - conference
+slug: 2015-aaas-in-san-jose
 ---
 
 I'm at the [2015 AAAS meeting](https://aaas.confex.com/aaas/2015/webprogram/start.html) in San Jose, California. This is definitely not my typical meeting: too big, too broad, and I hardly know anyone here. But here's a quick (ha ha; _yah sure_) summary of the meeting so far.
 
-
-
 ### Opening night
-
-
 
 [Gerald Fink](http://en.wikipedia.org/wiki/Gerald_Fink) gave the President's Address last night. He's the AAAS President, so I guess that's appropriate. But after five minutes of really lame simplistic crap (for example, he said something like, "[A single picture can destroy our known understanding of the universe,](https://twitter.com/c_fenster/status/566061155026624513)" like innovation and improving our understanding is a bad thing), I left.
 
 Oh, and before that: the emcee of the evening, who introduced [Janet Napolitano](http://en.wikipedia.org/wiki/Janet_Napolitano), totally couldn't pronounce her last name. (Her remarks, particularly her comments in support of public universities, were quite powerful.) Old dude: practice such things! Your ineptness reveals that you haven't paid proper attention to her.
 
-
-
 ### Sightings
-
-
 
 A huge meeting, but I know next to no one here. But I ran into [Sanjay Shete](http://faculty.mdanderson.org/Sanjay_Shete/) in the exhibit hall, where I attempted to get two of every tchotchke. (My kids will pitch a fit if one gets something, no matter how lame the thing, and the other doesn't.) Sanjay was named AAAS Fellow, that's why he's here.
 
 I also ran into [Steve Goodman](https://med.stanford.edu/profiles/steven-goodman) (not the [folk singer](http://en.wikipedia.org/wiki/Steve_Goodman) who died too young, but [a singer](http://www.lamplighters.org/images/press/pir14/DSCF4590.jpg), nevertheless). Gotta love Steve Goodman! He produced [Behind the tan door](https://www.youtube.com/watch?v=Ba5eNi0KzHk).
 
-
-
 ### Highlights
-
-
 
 I went to a dozen talks. A half-dozen I _really_ liked.
 
@@ -61,27 +45,15 @@ At the end of the day, [Daphne Koller](http://en.wikipedia.org/wiki/Daphne_Kolle
 
 I don't think I'd heard the quote that Daphne mentioned, [attributed to](http://quoteinvestigator.com/2012/08/17/lecture-minds/) [Edwin Emery Slosson](http://en.wikipedia.org/wiki/Edwin_Emery_Slosson):
 
-
-
-<blockquote>College is a place where a professor’s lecture notes go straight to the students’ lecture notes, without passing through the brains of either.</blockquote>
-
-
+<blockquote>College is a place where a professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either.</blockquote>
 
 Still laughing!
 
-
-
 ### Food
-
-
 
 As I [mentioned on twitter](https://twitter.com/kwbroman/status/566423868265353216), I've eaten _a lot_ of tacos. But I also had [some donuts](https://twitter.com/kwbroman/status/566263267048161281).
 
-
-
 ### Boy, am I _old_
-
-
 
 I seem to be staying at the same hotel as the [American Junior Academy of Sciences (AJAS)](http://en.wikipedia.org/wiki/American_Junior_Academy_of_Sciences). Are these high school or college students? Man, do I feel old.
 

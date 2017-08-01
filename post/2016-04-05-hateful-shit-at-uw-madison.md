@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2016-04-05 03:30:20+00:00
-layout: post
-link: http://kbroman.org/blog/2016/04/04/hateful-shit-at-uw-madison/
-slug: hateful-shit-at-uw-madison
 title: Hateful shit at UW-Madison
-wordpress_id: 2462
+author: Karl Broman
+date: '2016-04-04'
 categories:
-- Academics
-- Things that annoy me
+  - Academics
+  - Things that annoy me
 tags:
-- UW
+  - UW
+slug: hateful-shit-at-uw-madison
 ---
 
 I'm a privileged white male university professor. As privileged as they come, really. My father was a professor of chemistry; my mother also has an advanced degree in chemistry. The jobs I've held have been more about personal fulfillment than money: dancer, dance teacher, secretary for intellectual property lawyers, research and teaching assistant, professor. People assume I know what I'm talking about, even if I'm in shorts and a t-shirt.
@@ -28,14 +24,12 @@ What can a biostatistics professor do? I'm open to suggestions.
 
 But for now, I'll follow Patrick Sims's suggestion and start with one of the [United Council of UW Students' demands](http://www.unitedcouncilofuw.org/the-student-voice/2016/2/24/blackout-uw-system-administration-press-release-1212016):
 
-
 <blockquote>We demand that the University of Wisconsin System creates and enforces comprehensive racial awareness and inclusion curriculum and trainings throughout all 26 UW Institution departments, mandatory for all students, faculty, staff, campus & system administration, and regents. This curriculum and training must be vetted, maintained, and overseen by a board comprised of students, staff, and faculty of color.</blockquote>
-
 
 I've written an email to the faculty in [my department](http://www.biostat.wisc.edu), asking that we, as a department, _volunteer_ to participate in such racial awareness training:
 
 ![email_to_dept](https://kbroman.files.wordpress.com/2016/04/email_to_dept1.png)
 
-**Correction**: There's an error in my email; Chris Walker is Associate Professor, and has been for a couple of years.
+**Correction**: There's an error in my email; Chris Walker is Associate Professor, and has been for a couple of years.
 
 **Update**: Chris Walker's speech at the 4 Apr 2016 Faculty Senate meeting was [recorded](https://mediaspace.wisc.edu/media/Professor+Chris+Walker/1_5k9npnxs)! Must listen.

@@ -1,21 +1,17 @@
 ---
-author: kbroman
-comments: true
-date: 2013-02-28 20:47:49+00:00
-layout: post
-link: http://kbroman.org/blog/2013/02/28/theres-a-fire-in-the-building/
-slug: theres-a-fire-in-the-building
 title: There's a fire in the building...
-wordpress_id: 1347
+author: Karl Broman
+date: '2013-02-28'
 categories:
-- News
+  - News
 tags:
-- news
+  - news
+slug: theres-a-fire-in-the-building
 ---
 
 I was at work this morning at 8am.  At 8:45am I got a text asking what was going on in [my building](http://www.map.wisc.edu/?initObj=bdg_MdScC), with this picture:
 
-[![Fire trucks at MSC](http://kbroman.files.wordpress.com/2013/02/fire_trucks.jpg?w=300)](http://kbroman.files.wordpress.com/2013/02/fire_trucks.jpg)
+![Fire trucks at MSC](http://kbroman.files.wordpress.com/2013/02/fire_trucks.jpg)
 
 It was news to me.
 
@@ -27,7 +23,7 @@ At 9:05am I called the campus police to ask what was going on.  They said all th
 
 Apparently no one was hurt, but there seems to be quite a mess.  This is on the same floor as my office, not too far away:
 
-[![Fire-related mess, 4th floor SMI](http://kbroman.files.wordpress.com/2013/02/smi.jpg?w=225)](http://kbroman.files.wordpress.com/2013/02/smi.jpg)
+![Fire-related mess, 4th floor SMI](http://kbroman.files.wordpress.com/2013/02/smi.jpg)
 
 The fire seems to be around the corner from that shot, in the back-central part of the building.  I peaked around the corner and saw a bunch of people standing around, but I was too shy to take a picture of them.
 

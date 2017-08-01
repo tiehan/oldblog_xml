@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2012-09-24 11:25:58+00:00
-layout: post
-link: http://kbroman.org/blog/2012/09/24/bottle-filling-station/
-slug: bottle-filling-station
 title: Bottle filling station
-wordpress_id: 1082
+author: Karl Broman
+date: '2012-09-24'
 categories:
-- News
+  - News
 tags:
-- news
-- travel
+  - news
+  - travel
+slug: bottle-filling-station
 ---
 
 The [Madison airport](http://www.msnairport.com) now has a bottle-filling machine, sort of like this:
@@ -21,5 +17,3 @@ The [Madison airport](http://www.msnairport.com) now has a bottle-filling machin
 [Bottle filler/drinking fountains](http://www.elkayusa.com/cps/rde/xchg/elkay/hs.xsl/elkay-com-103031.aspx) are being installed all over the [UW-Madison campus](http://www.wisc.edu), too.
 
 I really love these things.  All airports should have them.
-
-

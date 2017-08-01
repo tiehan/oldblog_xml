@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2013-08-20 18:08:03+00:00
-layout: post
-link: http://kbroman.org/blog/2013/08/20/and-with-the-apply-functions/
-slug: and-with-the-apply-functions
 title: '"[" and "[[" with the apply() functions'
-wordpress_id: 1851
+author: Karl Broman
+date: '2013-08-20'
 categories:
-- R
+  - R
 tags:
-- code
+  - code
+slug: and-with-the-apply-functions
 ---
 
 Did you know you can use `"["` and `"[["` as function names for subsetting with calls to the `apply`-type functions?
@@ -21,20 +17,20 @@ Suppose the IDs are in a vector of character strings, `id`.
 
 If I wanted to grab the bit before the first hyphen, I would typically use `strsplit` and then `sapply` with `function(a) a[1]`, as so:
 
-[sourcecode language="r"]
+````r
 sapply(strsplit(id, "-"), function(a) a[1])
-[/sourcecode]
+````
 
 But in place of `function(a) a[1]`, you can use `"[", 1`, as follows:
 
-[sourcecode language="r"]
+````r
 sapply(strsplit(id, "-"), "[", 1)
-[/sourcecode]
+````
 
 I think that's kind of cute. You can use `"[["` the same way, if you're working with lists.
 
 Here's some code to create random IDs of this form, to test out the above:
-[sourcecode language="r"]
+````r
 nind <- 8
 lengths <- c(3, 3, 4)
 id <- NULL
@@ -45,4 +41,4 @@ for(i in seq(along=lengths)) {
   if(is.null(id)) id <- randstring
   else id <- paste(id, randstring, sep="-")
 }
-[/sourcecode]
+````

@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-01-15 20:37:55+00:00
-layout: post
-link: http://kbroman.org/blog/2013/01/15/nih-to-hire-associate-director-for-data-science/
-slug: nih-to-hire-associate-director-for-data-science
 title: NIH to hire Associate Director for Data Science
-wordpress_id: 1254
+author: Karl Broman
+date: '2013-01-15'
 categories:
-- News
-- Statistics
+  - News
+  - Statistics
 tags:
-- data science
-- news
+  - data science
+  - news
+slug: nih-to-hire-associate-director-for-data-science
 ---
 
 See [the press release](http://www.nih.gov/news/health/jan2013/od-10a.htm).

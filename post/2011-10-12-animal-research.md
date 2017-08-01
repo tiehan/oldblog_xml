@@ -1,26 +1,18 @@
 ---
-author: kbroman
-comments: true
-date: 2011-10-12 16:00:01+00:00
-layout: post
-link: http://kbroman.org/blog/2011/10/12/animal-research/
-slug: animal-research
 title: Animal research
-wordpress_id: 443
+author: Karl Broman
+date: '2011-10-12'
 categories:
-- Academics
-post_format:
-- Standard
+  - Academics
 tags:
-- animal research
-- seminars
+  - animal research
+  - seminars
+slug: animal-research
 ---
 
 Last night, I was an "expert" on a panel at a [public discussion on animal research](http://tinyurl.com/45y2jny).  I was really nervous, but I ended up not saying much and learning quite a lot.
 
 <!-- more -->
-
-
 
 [Paul Kaufman](http://www.ophth.wisc.edu/faculty/kaufman), Chair of Ophthalmology at UW-Madison, gave a 45 min talk about his research on glaucoma using monkeys.  In particular, he sought to articulate one case in which animal research had been useful, and it was a good one: the [development of prostoglandins](http://www.ncbi.nlm.nih.gov/pubmed/3477218) for lowering interocular pressure and so preventing or delaying the onset of glaucoma.  His talk was rather technical: great for me, but perhaps not so great for the audience (about 50 people, I would think mostly non-scientists).
 

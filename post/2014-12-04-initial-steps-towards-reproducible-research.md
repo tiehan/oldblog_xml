@@ -1,20 +1,16 @@
 ---
-author: kbroman
-comments: true
-date: 2014-12-04 20:36:37+00:00
-layout: post
-link: http://kbroman.org/blog/2014/12/04/initial-steps-towards-reproducible-research/
-slug: initial-steps-towards-reproducible-research
 title: Initial steps towards reproducible research
-wordpress_id: 2299
+author: Karl Broman
+date: '2014-12-04'
 categories:
-- Academics
-- R
-- Statistics
+  - Academics
+  - R
+  - Statistics
 tags:
-- data analysis
-- data science
-- reproducible research
+  - data analysis
+  - data science
+  - reproducible research
+slug: initial-steps-towards-reproducible-research
 ---
 
 In anticipation of next week's [Reproducible Science Hackathon](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014) at [NESCent](http://www.nescent.org/), I was thinking about [Christie Bahlai](https://twitter.com/cbahlai)'s post on "[Baby steps for the open-curious](https://practicaldatamanagement.wordpress.com/2014/10/23/baby-steps-for-the-open-curious/)."

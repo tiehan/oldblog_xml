@@ -1,19 +1,15 @@
 ---
-author: kbroman
-comments: true
-date: 2012-04-27 23:23:37+00:00
-layout: post
-link: http://kbroman.org/blog/2012/04/27/positive-comments-on-peer-review/
-slug: positive-comments-on-peer-review
 title: Positive comments on peer review
-wordpress_id: 870
+author: Karl Broman
+date: '2012-04-27'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- peer review
-- publishing
-- writing
+  - peer review
+  - publishing
+  - writing
+slug: positive-comments-on-peer-review
 ---
 
 We all complain about peer review, particularly when [our best work](http://www.biostat.wisc.edu/~kbroman/publications/inversion.pdf) is rejected by every journal from Nature Genetics down to [that journal that will publish anything](http://www.biomedcentral.com/bmcgenet), so that it finally appears in [a volume](http://projecteuclid.org/euclid.lnms/1215091126) to honor [some guy](http://www.stat.berkeley.edu/~terry/) that [only he will read](http://kbroman.files.wordpress.com/2012/04/terry2.jpg).

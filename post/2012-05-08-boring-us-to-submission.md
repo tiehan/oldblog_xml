@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2012-05-08 04:00:12+00:00
-layout: post
-link: http://kbroman.org/blog/2012/05/07/boring-us-to-submission/
-slug: boring-us-to-submission
 title: Boring us to submission
-wordpress_id: 895
+author: Karl Broman
+date: '2012-05-07'
 categories:
-- Academics
+  - Academics
 tags:
-- stupid
+  - stupid
+slug: boring-us-to-submission
 ---
 
 The [University of Wisconsin-Madison](http://www.wisc.edu) has embarked on a big [human resources redesign](http://www.hrdesign.wisc.edu).  I think the university administration has devised the ideal strategy to ensure little faculty input in the process: they've made it so dreadfully dull and full of business speak that we can't bear to read through the material or show up to one of the many "engagement sessions".
@@ -18,10 +14,10 @@ The [University of Wisconsin-Madison](http://www.wisc.edu) has embarked on a big
 What reasonable faculty member would seek to attend an "engagement session"?
 
 And then there are diagrams like this:
-[![](http://kbroman.files.wordpress.com/2012/05/hrd_project_structure-1024x770.gif?w=300)](http://kbroman.files.wordpress.com/2012/05/hrd_project_structure-1024x770.gif)
+![](http://kbroman.files.wordpress.com/2012/05/hrd_project_structure-1024x770.gif)
 
 And stuff like this:
-[![](http://kbroman.files.wordpress.com/2012/05/hrd_vision.png?w=300)](http://kbroman.files.wordpress.com/2012/05/hrd_vision.png)
+![](http://kbroman.files.wordpress.com/2012/05/hrd_vision.png)
 
 When they talk about market-based blah blah blah, my eyes glaze over and I want to take a nap.
 

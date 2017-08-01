@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2014-08-28 13:51:19+00:00
-layout: post
-link: http://kbroman.org/blog/2014/08/28/yet-another-r-package-primer/
-slug: yet-another-r-package-primer
 title: Yet another R package primer
-wordpress_id: 2174
+author: Karl Broman
+date: '2014-08-28'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- programming
-- reproducible research
+  - programming
+  - reproducible research
+slug: yet-another-r-package-primer
 ---
 
 [Hadley Wickham](http://had.co.nz/) is writing what will surely be a [great book](http://r-pkgs.had.co.nz/) about the basics of R packages. And [Hilary Parker](http://hilaryparker.com) wrote a [very](https://twitter.com/ErikaMudrak/status/504732734674444288) [influential](https://twitter.com/polesasunder/status/504785818922131456) [post on how to write an R package](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch). So it seems like that topic is well covered.

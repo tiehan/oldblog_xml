@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2011-09-19 13:00:49+00:00
-layout: post
-link: http://kbroman.org/blog/2011/09/19/lager-yeast/
-slug: lager-yeast
 title: Lager yeast
-wordpress_id: 259
+author: Karl Broman
+date: '2011-09-19'
 categories:
-- Genetics
+  - Genetics
 tags:
-- seminars
+  - seminars
+slug: lager-yeast
 ---
 
 Last week, I attended an excellent seminar by [Chris Hittinger](http://hittinger.genetics.wisc.edu/) on the identification and evolution of [lager yeast](http://hittinger.genetics.wisc.edu/#Aug22_2011) (see [the paper](http://www.pnas.org/content/early/2011/08/17/1105430108.full.pdf+html)), part of [my favorite seminar series](http://www.evolution.wisc.edu/node/30), on [evolution](http://www.evolution.wisc.edu).

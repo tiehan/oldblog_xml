@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-04-11 03:14:06+00:00
-layout: post
-link: http://kbroman.org/blog/2013/04/10/use-meaningful-urls/
-slug: use-meaningful-urls
 title: Use meaningful URLs
-wordpress_id: 1675
+author: Karl Broman
+date: '2013-04-10'
 categories:
-- Academics
-- Things that annoy me
+  - Academics
+  - Things that annoy me
 tags:
-- stupid
-- web
+  - stupid
+  - web
+slug: use-meaningful-urls
 ---
 
 [QR codes are stupid](http://www.slideshare.net/natesmoyer/qr-codes-are-stupid).  See the well-known [flowchart](https://twitter.com/jcolman/status/320917928881033218).
@@ -20,8 +16,6 @@ tags:
 And I don't like [Drupal](http://drupal.org).  Sites that use it give things URLs like [`http://www.genetics.wisc.edu/node/577`](http://www.genetics.wisc.edu/node/577) for their seminar list.
 
 And can we get rid of the `www`?
-
-
 
 <blockquote>
 "What's your web site?"
@@ -31,8 +25,6 @@ And can we get rid of the `www`?
 "Zzz..."
 </blockquote>
 
-
-
 URLs should be meaningful and short.  I like deep hierarchies of folders, but it makes for long URLs.
 
 [URL-shorteners](http://bitly.com) help, but you don't really want to read out (or type) one of those short URLs.  And they tell you nothing about where they're going.
@@ -41,11 +33,7 @@ What you want is something like [`bcaffo.com`](http://bcaffo.com) or [`stodden.n
 
 But...I guess you could just say "I'll send you an email."
 
-
-
 ### And customize `<title>`
-
-
 
 And while I have your attention, note that the title of your web page shows up on Google (and at the top of the browser).
 
@@ -55,6 +43,6 @@ Put the important words first (not like the title for my "[official page](http:/
 
 _Update_: Read this: "[URLs are for People, not Computers](http://www.not-implemented.com/urls-are-for-people-not-computers/)"
 
-I could have just given the URL:   
+I could have just given the URL:
 
 [`http://www.not-implemented.com/urls-are-for-people-not-computers`](http://www.not-implemented.com/urls-are-for-people-not-computers/)

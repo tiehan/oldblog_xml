@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2012-05-23 11:00:02+00:00
-layout: post
-link: http://kbroman.org/blog/2012/05/23/what-should-i-do-badly/
-slug: what-should-i-do-badly
 title: What should I do badly?
-wordpress_id: 951
+author: Karl Broman
+date: '2012-05-23'
 categories:
-- Academics
+  - Academics
 tags:
-- productivity
+  - productivity
+slug: what-should-i-do-badly
 ---
 
 One of the more painful things to learn as a faculty member is to accept that you will do some things badly.  There are too many things to do, so you can't do them all well.  What should you do badly?
@@ -27,18 +23,11 @@ Faculty life is quite a bit different.  I'm making real commitments to people.  
 
 There's just too much to do and not enough time to do it as well as you'd like.
 
-
-
 ### So, what should I do badly?
-
-
 
 Well, definitely not [my own research papers](http://www.biostat.wisc.edu/~kbroman/publications); those will outlast me.  Maybe some day someone will read them.  Similarly, not [seminars I give](http://www.biostat.wisc.edu/~kbroman/presentations), as through such research talks, I may gain a reader.  I suppose family, health, and sleep should be mentioned here.  And biking.
 
 So:
-
-
-
 
   * Committee work.  If someone says, "I enjoyed reading the report you wrote", you've clearly been focusing on the wrong things.
 
@@ -49,6 +38,5 @@ So:
   * Reviews of grants.  Someone's livelihood is at stake, but does it really matter if the text of my review is awkwardly phrased?
 
   * My own grant.  Some of my colleagues will start writing a grant months in advance.  I say: if you start months in advance, then you're going to spend months on the thing!  You should start as late as possible.  A perfect score on a grant is an indication that you spent too much time on it.  The best grant score is the worst possible that still gets funded.
-
 
 As I said, it's painful to do things that you know are crap (i.e., could be much better).  It's hard to  accept one's limitations.

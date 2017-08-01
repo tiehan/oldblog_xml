@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2015-09-09 15:23:23+00:00
-layout: post
-link: http://kbroman.org/blog/2015/09/09/reproducibility-is-hard/
-slug: reproducibility-is-hard
 title: Reproducibility is hard
-wordpress_id: 2397
+author: Karl Broman
+date: '2015-09-09'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- papers
-- reproducible research
+  - papers
+  - reproducible research
+slug: reproducibility-is-hard
 ---
 
 Reproducibility is hard. It will probably always be hard, because it's hard keeping things organized.
@@ -35,39 +31,19 @@ In the end, I'm hoping that one can clone the [GitHub repository](https://github
 
 I'm not quite there, but I think I'm close.
 
-
-
 ### Aspects I'm happy with
-
-
 
 For the most part, my work on this project wasn't terrible.
 
-
-
-
-
-
   * I wrote an R package, [R/lineup](https://github.com/kbroman/lineup), with the main analysis methods.
-
-
 
   * That I re-derived the full entire analysis cleanly, in a separate, reproducible document (I used [AsciiDoc](http://www.methods.co.nz/asciidoc/) and [knitr](http://yihui.name/knitr/)) was a good thing.
 
-
   * The code for the figures and tables are all reasonably clean, and draw from either the original data files or from intermediate calculations produced by the AsciiDoc document.
-
-
 
   * I automated everything with GNU Make.
 
-
-
-
-
 ### What should I have done differently?
-
-
 
 There was a lot more after-the-fact work that I would rather not have to do.
 
@@ -78,4 +54,3 @@ With a larger data set, I guess the thing to do is recognize, from the start, th
 When you write a script to convert data from one form to another, _also write some tests_, to make sure that it worked correctly.
 
 And then _document, document, document!_ As with software development, it's hard to document data or analyses after the fact.
-

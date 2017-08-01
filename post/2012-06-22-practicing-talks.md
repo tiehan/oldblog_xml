@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2012-06-22 18:00:38+00:00
-layout: post
-link: http://kbroman.org/blog/2012/06/22/practicing-talks/
-slug: practicing-talks
 title: Practicing talks
-wordpress_id: 1042
+author: Karl Broman
+date: '2012-06-22'
 categories:
-- Academics
+  - Academics
 tags:
-- seminars
+  - seminars
+slug: practicing-talks
 ---
 
 Clay Johnson, the author of [The Information Diet](http://www.amazon.com/gp/product/1449304680), recently wrote about [how to prepare to give a presentation](http://lifehacker.com/5920033/how-to-prep-for-a-presentation).
@@ -19,10 +15,7 @@ I was shocked.
 
 First, he says
 
-
 <blockquote>When I started writing my book, I knew that authors generally make more money from speaking than they do from royalties, so I wanted my talks on the Information Diet to be great.</blockquote>
-
-
 
 I probably should have stopped there, since we clearly have completely different goals.  He wrote a book and is giving talks in order to make money?
 

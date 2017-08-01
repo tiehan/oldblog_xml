@@ -1,53 +1,41 @@
 ---
-author: kbroman
-comments: true
-date: 2014-09-03 15:29:43+00:00
-layout: post
-link: http://kbroman.org/blog/2014/09/03/notifications-from-r/
-slug: notifications-from-r
 title: Notifications from R
-wordpress_id: 2211
+author: Karl Broman
+date: '2014-09-03'
 categories:
-- R
+  - R
 tags:
-- code
-- productivity
+  - code
+  - productivity
+slug: notifications-from-r
 ---
 
 You just sent a long [R](http://www.r-project.org) job running. How to know when it's done? Have it notify you by [beeping](https://github.com/rasmusab/beepr), [sending you a text](https://github.com/trinker/gmailR), or [sending you a notification](https://github.com/eddelbuettel/rpushbullet) [via pushbullet](http://pushbullet.com).
 
 <!-- more -->
 
-
-
 ### `[beepr](https://github.com/rasmusab/beepr)`
-
-
 
 You can use [Rasmus Baath](http://www.sumsar.net/)'s [beepr](https://github.com/rasmusab/beepr) package to have your computer play a sound.
 
 Install it from [CRAN](http://cran.r-project.org) with
 
-[sourcecode]
+````
 install.packages("beepr")
-[/sourcecode]
+````
 
 Then, at the bottom of your script, load the package and have it beep.
 
-[sourcecode]
+````
 library(beepr)
 beep()
-[/sourcecode]
+````
 
 [beepr](https://github.com/rasmusab/beepr) comes with a bunch of different sounds (e.g., try `beep("facebook")`), or use a path to any wav file. I tried [these cat sounds](http://www.kessels.com/catsounds/), but they came out (with my computer's speaker) sounding more like a really unhappy electronic lion...not very pleasant.
 
 [beepr](https://github.com/rasmusab/beepr) is cool, but most of my long-running jobs are on a distant server. It could be useful for local jobs on my Mac, but most of the time my computer is muted or the sound goes to my headphones (and my headphones are not always on my head). So I'm instead having my scripts send me a text or a notification via [pushbullet](http://pushbullet.com).
 
-
-
 ### `[gmailR](https://github.com/trinker/gmailR)`
-
-
 
 There are a number of different packages for sending email from R (e.g., [sendmailR](http://cran.r-project.org/web/packages/sendmailR/index.html) and [mailR](http://cran.r-project.org/web/packages/mailR/index.html)). I tried [Tyler Rinker](http://trinkerrstuff.wordpress.com/)'s [gmailR](https://github.com/trinker/gmailR) package.
 
@@ -59,97 +47,76 @@ So I wrote a little package [mygmailR](https://github.com/kbroman/mygmailR), tha
 
 My `~/.gmail_private` file looks like the following: app-specific gmail password, gmail account to be the default "from" email address (perhaps special for this purpose), the email address to use to send a text, and the default "to" email (which is my usual gmail account).
 
-[sourcecode]
+````
 password my_private_app_specific_password
 gmail    my_gmail_account@gmail.com
 text     0123456789@txt.att.net
 to       default_to@gmail.com
-[/sourcecode]
+````
 
 You need to install a few packages. [gmailR](https://github.com/trinker/gmailR) and [mygmailR](https://github.com/kbroman/mygmailR) are not available on [CRAN](http://cran.r-project.org), so you need to install [devtools](https://github.com/hadley/devtools) and use the `install_github()` function to install them from [GitHub](http://github.com).
 
-[sourcecode]
+````
 install.packages(c("devtools", "rJython", "rJava", "rjson"))
 library(devtools)
 install_github("trinker/gmailR")
 install_github("kbroman/mygmailR")
-[/sourcecode]
+````
 
 In your script, to send yourself a text, you'd write
 
-[sourcecode]
+````
 library(mygmailR)
 send_text("subject here" "body of message here")
-[/sourcecode]
+````
 
 To send yourself an email, write
 
-[sourcecode]
+````
 library(mygmailR)
 send_gmail("subject here", "body of message here")
-[/sourcecode]
-
-
+````
 
 ### `[RPushbullet](https://github.com/eddelbuettel/rpushbullet)`
-
-
 
 Another alternative (suggested to me by [Peter Hickey](https://twitter.com/PeteHaitch/status/507073412842278913) and [Jared Knowles](https://twitter.com/jknowles/status/507152898674143232)) is to use [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/)'s [RPushbullet](https://github.com/eddelbuettel/rpushbullet) package to send yourself a notification via [pushbullet](http://pushbullet.com).
 
 The main advantage of this, in my mind, is that there's no gmail password sitting around on your system anywhere, but rather just your [pushbullet](http://pushbullet.com) "Access Token", sitting in the file `~/.rpushbullet.json`, so this is less of a security issue.
 
-
-
-
-
   1. Sign up for [pushbullet](http://pushbullet.com); you'll need a [Google](http://www.google.com) account.
-
-
 
   2. Install the pushbullet app on your phone or other device, or install the chrome extension.
 
-
-
   3. Go to [your pushbullet account page](https://www.pushbullet.com/account) to get your "Access Token".
-
-
 
   4. Install the [RPushbullet](https://github.com/eddelbuettel/rpushbullet) package from CRAN.
 
-
-[sourcecode]
+````
 install.packages("RPushbullet")
-[/sourcecode]
-
+````
 
   5. Create a `~/.rpushbullet.json` file with your api key and not much else.
 
-
-[sourcecode]
+````
 {
     "key": "your_api_key",
     "devices": [],
     "names": []
 }
-[/sourcecode]
-
+````
 
   6. Install [jsonlite](http://cran.r-project.org/package=jsonlite) and use [RPushbullet](https://github.com/eddelbuettel/rpushbullet)'s `pbGetDevices()` function to get the identifiers for the devices you've registered with [pushbullet](http://pushbullet.com).
 
-
-[sourcecode]
+````
 install.packages("jsonlite")
 library(jsonlite)
 library(RPushbullet)
 fromJSON(pbGetDevices())$devices[,c("iden", "nickname")]
-[/sourcecode]
-
+````
 
   7. Insert those device identifiers into your `~/.rpushbullet.json` file.
 
-
-[sourcecode]
+````
 {
     "key": "your_api_key",
 
@@ -165,15 +132,14 @@ fromJSON(pbGetDevices())$devices[,c("iden", "nickname")]
         "Chrome";
     ]
 }
-[/sourcecode]
-
+````
 
 Now you're set!  Use the `pbPost()` function to post a message to yourself.
 
-[sourcecode]
+````
 library(RPushbullet)
 pbPost("note", "Title of note", "Body of message")
-[/sourcecode]
+````
 
 By default, the message is posted to the first device listed in your `~/.rpushbullet.json` file; to post it to a different device, use the argument `deviceind`, which takes a positive integer.
 

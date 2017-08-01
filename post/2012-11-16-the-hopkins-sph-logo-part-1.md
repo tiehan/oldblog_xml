@@ -1,24 +1,20 @@
 ---
-author: kbroman
-comments: true
-date: 2012-11-16 17:42:32+00:00
-layout: post
-link: http://kbroman.org/blog/2012/11/16/the-hopkins-sph-logo-part-1/
-slug: the-hopkins-sph-logo-part-1
 title: The Hopkins SPH logo, part 1
-wordpress_id: 1163
+author: Karl Broman
+date: '2012-11-16'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- stupid
+  - stupid
+slug: the-hopkins-sph-logo-part-1
 ---
 
 I was just telling [a distinguished visitor](http://www.stodden.net) a few of my various stories about the [Johns Hopkins **Bloomberg** School of Public Health](http://www.jhsph.edu) [logo](http://www.jhsph.edu/identity/coreIdentity/logoIntro.shtml). She suggested that it would be a great blog topic. And now that I'm a tenured faculty member at a [different university](http://www.wisc.edu) and so can't get into any [further] trouble over this...
 
 Here's the logo:
 
-[![](http://kbroman.files.wordpress.com/2013/03/logo.png?w=165&h=150)](http://kbroman.files.wordpress.com/2013/03/logo.png?w=165&h=150)
+![](http://kbroman.files.wordpress.com/2013/03/logo.png&h=150)
 
 The logo was newly released while I was a faculty member in the [Department of Biostatistics](http://www.biostat.jhsph.edu) at Hopkins.  It was part of a ["branding"](http://en.wikipedia.org/wiki/Brand_management) effort for the school that was a near-constant source of amusement for me, though I think I did strain an eye muscle or two from all the rolling.
 
@@ -26,7 +22,7 @@ When the logo was first revealed to the faculty, the website describing it (whic
 
 In addition, the day the logo was revealed, [someone](http://www.biostat.jhsph.edu/people/staff/moffitt.shtml) said it looked like the logo for some religious organization.  A google search for "globe flame logo" instantly revealed the logo for [Missionary Church](http://www.mcusa.org):
 
-[![](http://www.mcusa.org/Portals/8/Images/logo_251x130.gif)](http://www.mcusa.org/Portals/8/Images/logo_251x130.gif)
+![](http://www.mcusa.org/Portals/8/Images/logo_251x130.gif)
 
 Can the similarity be due to chance?
 

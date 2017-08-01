@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-04-05 13:12:35+00:00
-layout: post
-link: http://kbroman.org/blog/2013/04/05/data-science-is-statistics/
-slug: data-science-is-statistics
 title: Data science is statistics
-wordpress_id: 1642
+author: Karl Broman
+date: '2013-04-05'
 categories:
-- Statistics
-- Things that annoy me
+  - Statistics
+  - Things that annoy me
 tags:
-- data analysis
-- data science
+  - data analysis
+  - data science
+slug: data-science-is-statistics
 ---
 
 When physicists do mathematics, they don't say they're doing "number science".  They're doing math.

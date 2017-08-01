@@ -1,35 +1,27 @@
 ---
-author: kbroman
-comments: true
-date: 2013-02-08 19:54:26+00:00
-layout: post
-link: http://kbroman.org/blog/2013/02/08/d3-js-difficulties/
-slug: d3-js-difficulties
 title: D3.js difficulties
-wordpress_id: 1297
+author: Karl Broman
+date: '2013-02-08'
 categories:
-- Programming
+  - Programming
 tags:
-- code
-- D3
-- javascript
-- programming
-- stupid
+  - code
+  - D3
+  - javascript
+  - programming
+  - stupid
+slug: d3-js-difficulties
 ---
 
 I'm pleased with my progress learning javascript and [D3](http://d3js.org). (I'm actually writing [coffeescript](http://coffeescript.org) rather than javascript.)
 
 But I spent a lot of time thrashing about yesterday, due mostly to two silly errors.
 
-
-
 ### Put the script in the body
-
-
 
 First, I'd tried to make a [truly simple example](http://www.biostat.wisc.edu/~kbroman/D3/error1/error1.html), making just an SVG with a little rectangle.
 
-[sourcecode language="html"]
+````html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +42,7 @@ First, I'd tried to make a [truly simple example](http://www.biostat.wisc.edu/~k
 <body>
 </body>
 </html>
-[/sourcecode]
+````
 
 But this gives nothing.  You need to move the script from the `head` to the `body`, [as it is here](http://www.biostat.wisc.edu/~kbroman/D3/error1/error1b.html).  Then it works.
 
@@ -58,15 +50,11 @@ I don't really understand this.  Perhaps I should go back to my reading.
 
 [**Update**: I think I've figured this out.  If you put the script in the `head`, the code gets run before the `body` exists, and so there's no `body` in which to append the SVG.  _Conclusion_: Put the link to your script at the very bottom of the html file.]
 
-
-
 ### Don't forget `enter()`
-
-
 
 In D3, you bind data to a bunch of objects, and attributes of the objects can be controlled by features of the data.  I write code sort of like this:
 
-[sourcecode language="javascript"]
+````javascript
 svg.append("g").selectAll("empty")
    .data(thedata)
    .enter()
@@ -77,6 +65,6 @@ svg.append("g").selectAll("empty")
    .attr("height", (d) -> hInner)
    .attr("fill", (d) -> color[d])
    .attr("stroke", "none")
-[/sourcecode]
+````
 
 My most common mistake so far: I forget the `.enter()` part.  You don't get a error message, but the objects don't get created.

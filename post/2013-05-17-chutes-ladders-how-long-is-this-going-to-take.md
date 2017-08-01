@@ -1,19 +1,15 @@
 ---
-author: kbroman
-comments: true
-date: 2013-05-17 21:05:42+00:00
-layout: post
-link: http://kbroman.org/blog/2013/05/17/chutes-ladders-how-long-is-this-going-to-take/
-slug: chutes-ladders-how-long-is-this-going-to-take
 title: 'Chutes & ladders: How long is this going to take?'
-wordpress_id: 1786
+author: Karl Broman
+date: '2013-05-17'
 categories:
-- R
-- Statistics
+  - R
+  - Statistics
 tags:
-- kids
-- Markov chains
-- simulation
+  - kids
+  - Markov chains
+  - simulation
+slug: chutes-ladders-how-long-is-this-going-to-take
 ---
 
 I was playing Chutes & Ladders with my four-year-old daughter yesterday, and I thought, "How long is this going to take?"
@@ -26,7 +22,7 @@ So I wrote a bit of [R code to simulate the game](https://gist.github.com/kbroma
 
 Here's the distribution of the number of spins to complete the game, by number of players:
 
-[![No. spins in chutes & ladders](http://kbroman.files.wordpress.com/2013/05/chutes_and_ladders_spins1.png?w=450)](http://kbroman.files.wordpress.com/2013/05/chutes_and_ladders_spins1.png)
+![No. spins in chutes & ladders](http://kbroman.files.wordpress.com/2013/05/chutes_and_ladders_spins1.png)
 
 With two players, the average number of spins is 52, with a 90th percentile of 88.
 

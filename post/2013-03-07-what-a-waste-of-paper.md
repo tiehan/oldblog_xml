@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-07 20:49:36+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/07/what-a-waste-of-paper/
-slug: what-a-waste-of-paper
 title: What a waste of paper
-wordpress_id: 1394
+author: Karl Broman
+date: '2013-03-07'
 categories:
-- Academics
-- Things that annoy me
+  - Academics
+  - Things that annoy me
 tags:
-- peer review
-- stupid
+  - peer review
+  - stupid
+slug: what-a-waste-of-paper
 ---
 
 A university press asked me to review a book manuscript, and the author "has asked that we not use electronic copies." So they're going to send me a hard copy.

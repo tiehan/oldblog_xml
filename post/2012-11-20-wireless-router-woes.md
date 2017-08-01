@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2012-11-20 21:34:45+00:00
-layout: post
-link: http://kbroman.org/blog/2012/11/20/wireless-router-woes/
-slug: wireless-router-woes
 title: Wireless router woes
-wordpress_id: 1191
+author: Karl Broman
+date: '2012-11-20'
 categories:
-- Programming
+  - Programming
 tags:
-- hardware
-- router
-- wifi
+  - hardware
+  - router
+  - wifi
+slug: wireless-router-woes
 ---
 
 I had problems with my internet connection at home this morning.  The usual things didn't work, but an unusual thing did work, so I thought I'd write about it.
@@ -30,4 +26,3 @@ Finally, I found [this page](http://tinyurl.com/az3ltws) at this Cisco site, on 
 I don't know why that worked.  I've never done that before, and the router worked perfectly fine last night.  What could have changed over night?  Did the cable company change some setting on their end?
 
 What a fun way to spend two hours!  At least, in the end, I cut 25% off my monthly cable bill.
-

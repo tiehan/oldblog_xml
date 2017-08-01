@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2014-03-14 13:55:53+00:00
-layout: post
-link: http://kbroman.org/blog/2014/03/14/startling-lack-of-training-in-statistical-computing/
-slug: startling-lack-of-training-in-statistical-computing
 title: Startling lack of training in statistical computing
-wordpress_id: 2044
+author: Karl Broman
+date: '2014-03-14'
 categories:
-- Academics
+  - Academics
 tags:
-- computing
-- teaching
+  - computing
+  - teaching
+slug: startling-lack-of-training-in-statistical-computing
 ---
 
 It is shocking to me that [a statistics department](http://www.stat.wisc.edu) would offer a graduate-level statistical computing course only _every fourth year_.

@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-19 14:17:54+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/19/enar-highs-and-lows/
-slug: enar-highs-and-lows
 title: ENAR highs and lows
-wordpress_id: 1529
+author: Karl Broman
+date: '2013-03-19'
 categories:
-- Academics
-- Statistics
+  - Academics
+  - Statistics
 tags:
-- conference
+  - conference
+slug: enar-highs-and-lows
 ---
 
 I attended the [ENAR meeting](http://www.enar.org/meetings.cfm) in Orlando, Florida, last week. ([ENAR](http://www.enar.org) = "Eastern North American Region" of the [International Biometric Society](http://www.biometricsociety.org).)
@@ -24,89 +20,41 @@ Also see the ENAR-related comments from [Yihui Xie](http://yihui.name/en/2013/03
 
 <!-- more -->
 
-
-
 ### Highlights
-
-
-
-
-
-
 
   * Getting to know [Yihui Xie](http://yihui.name), and the introductory part of his talk on [knitr](http://yihui.name/knitr/).
 
-
-
   * Having lunch with [Hopkins Biostat](http://www.biostat.jhsph.edu) students.
-
-
 
   * Twittering, particularly with [@StrictlyStat](http://twitter.com/StrictlyStat) and [@hspter](http://twitter.com/hspter).
 
-
-
   * Hadley Wickham's [ggplot2](http://ggplot2.org) tutorial, in which I really learned how to teach.  (Can I put it into practice?)
-
-
 
   * [Matthew Stephens](http://genes.uchicago.edu/contents/faculty/stephens-matthew.html)'s talk, and spending time with him.
 
-
-
   * [Jeff Morris](http://faculty.mdanderson.org/Jeffrey_Morris/Default.asp)'s orientation to Epcot.
-
-
 
   * The large data visualization session, with [John](http://twitter.com/StrictlyStat), [Hadley](http://had.co.nz), [Amy Heineke](http://www.youtube.com/watch?v=IVdwJvQXeg4), and [me](http://www.biostat.wisc.edu/~kbroman).  (Thanks, [Bruce](http://www.biostat.jhsph.edu/~bswihart/)!)
 
-
-
-
-
 ### Lowlights
-
-
-
-
-
-
 
   * They should have emphasized the cheaper shuttle from the airport (vs taxi); the information was hard to find.
 
-
-
   * They should have emphasized that wifi was actually free; ignore the $14.95/day charge as it gets waived from your bill.
-
-
 
   * Registration on Sunday closed early, so many at the poster session were without name badges.
 
-
   * The program guide PDF should have had bookmarks, and the schedule should have included links to the abstracts.
-
-
 
   * Realism regarding the start time for the President's invited address.  But I guess if we knew the awards ceremony would take not 15 min but 45, _everyone_ would skipped.
 
-
-
   * The venue was too isolated.
-
-
 
   * The hotel was too expensive.
 
-
-
   * The $85 admission to Epcot was a required part of the registration fee (23%).  The registration fee ($365) was the same as for ENAR 2012 in Washington DC, but it could have been $280.  And there's a striking difference between "It's free!" and "You already paid for it!"
 
-
-
   * The lighting in meeting rooms was not great.  We needed a ladder and a can of spray paint to "turn off" those lights shining on the screen.
-
-
-
 
 As I said at the beginning, I had a good time. But I worry particularly about accessibility to students paying their own way.
 

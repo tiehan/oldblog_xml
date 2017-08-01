@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-08-06 16:35:39+00:00
-layout: post
-link: http://kbroman.org/blog/2013/08/06/read-the-source-code/
-slug: read-the-source-code
 title: Read the source code
-wordpress_id: 1821
+author: Karl Broman
+date: '2013-08-06'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- code
-- programming
+  - code
+  - programming
+slug: read-the-source-code
 ---
 
 The other day, there was a bit of [a twitter conversation about `qqline`](https://twitter.com/hspter/status/363015797204992000) in R.
@@ -21,7 +17,7 @@ It made me think: how exactly is the line produced by `qqline` chosen? I seemed 
 
 An advantage of R is that you can just type the name of the function and see the code:
 
-[sourcecode language="R"]
+````R
 # qqline
 function (y, datax = FALSE, distribution = qnorm, probs = c(0.25,
     0.75), qtype = 7, ...)
@@ -39,7 +35,7 @@ function (y, datax = FALSE, distribution = qnorm, probs = c(0.25,
     }
     abline(int, slope, ...)
 }
-[/sourcecode]
+````
 
 I was right: They take the 25th and 75th percentiles of the data and of the theoretical distribution, calculate the slope and y-intercept of the line that goes through those two points, and use `abline` to draw the line.
 
@@ -47,11 +43,11 @@ Open source means the source is open, so why not take the time to look at it?
 
 Sometimes typing the name of the function doesn't tell you much:
 
-[sourcecode language="R"]
+````R
 # qqnorm
 function (y, ...)
 UseMethod("qqnorm")
-[/sourcecode]
+````
 
 In such cases, you could try typing, for example, `qqnorm.default`.
 
@@ -59,45 +55,22 @@ Still, the comments (if there were any) get stripped off, and for long functions
 
 For example,
 
-
-    
     grep -r 'qqline' R-3.0.1/src/
-
-
 
 shows that I should look for `qqline` in
 
-
-    
     R-3.0.1/src/library/stats/R/qqnorm.R
-
-
 
 For something like `cor`, you might want to do:
 
-
-    
     grep -r 'cor <-' R-3.0.1/src
-
-
 
 Or maybe:
 
-
-    
     grep -r 'cor <-' R-3.0.1/src/library/stats/R
-
-
 
 But for `cor`, you probably also want to look at the C code, which is in
 
-
-    
     R-3.0.1/src/library/stats/src/cov.c
 
-
-
 You can learn a lot about programming from the source code for R.
-
-
-

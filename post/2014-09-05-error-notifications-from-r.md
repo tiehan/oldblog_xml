@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2014-09-05 04:44:15+00:00
-layout: post
-link: http://kbroman.org/blog/2014/09/04/error-notifications-from-r/
-slug: error-notifications-from-r
 title: Error notifications from R
-wordpress_id: 2239
+author: Karl Broman
+date: '2014-09-04'
 categories:
-- R
+  - R
 tags:
-- code
-- productivity
+  - code
+  - productivity
+slug: error-notifications-from-r
 ---
 
 I'm enthusiastic about having [R notify me when my script is done](http://kbroman.org/blog/2014/09/03/notifications-from-r/).
@@ -26,12 +22,12 @@ You can use `geterrmessage()` to grab the error message to include in your notif
 
 For example, if you want to use [RPushbullet](https://github.com/eddelbuettel/rpushbullet) for the notification, you could put, at the top of your script, something like this:
 
-[sourcecode]
+````
 options(error = function() {
                     library(RPushbullet)
                     pbPost("note", "Error", geterrmessage())
                 })
-[/sourcecode]
+````
 
 Then if the script gives an error, you'll get a note with title "Error" and with the error message as the body of the note.
 
@@ -39,11 +35,10 @@ Then if the script gives an error, you'll get a note with title "Error" and with
 
 **Another update**: Ian Kyle pointed out in the comments that the above function, if used in a script run with `R CMD BATCH`, won't actually halt the script. The simplest solution is to add `stop(geterrmessage())`, like this:
 
-[sourcecode]
+````
 options(error = function() {
                     library(RPushbullet)
                     pbPost("note", "Error", geterrmessage())
                     if(!interactive()) stop(geterrmessage())
                 })
-[/sourcecode]
-
+````

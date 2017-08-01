@@ -1,20 +1,16 @@
 ---
-author: kbroman
-comments: true
-date: 2015-12-07 21:50:42+00:00
-layout: post
-link: http://kbroman.org/blog/2015/12/07/write-unit-tests/
-slug: write-unit-tests
 title: Write unit tests!
-wordpress_id: 2445
+author: Karl Broman
+date: '2015-12-07'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- code
-- programming
-- stupid
-- testing
+  - code
+  - programming
+  - stupid
+  - testing
+slug: write-unit-tests
 ---
 
 Since 2000, I've been working on [R/qtl](http://rqtl.org), an R package for mapping the genetic loci (called quantitative trait loci, QTL) that contribute to variation in quantitative traits in experimental crosses. The [Bioinformatics paper about it](https://www.biostat.wisc.edu/~kbroman/publications/rqtl.pdf) is my most cited; also see my 2014 JORS paper, "[Fourteen years of R/qtl: Just barely sustainable](https://www.biostat.wisc.edu/~kbroman/publications/rqtl_14yrs.pdf)."
@@ -38,27 +34,17 @@ I did, after resorting to a bunch of print/cat statements, [find the bug](https:
 
 [Pjotr Prins](http://thebird.nl/) was the first to encourage me towards software testing. [Hadley Wickham](http://had.co.nz/)'s [testthat](https://github.com/hadley/testthat) package makes it easy to do in R packages. In his [paper about testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf), Hadley wrote:
 
-
-
 <blockquote>It's not that we don't test our code, it's that we don't store our tests so they can be re-run automatically.
 </blockquote>
-
-
 
 This is my favorite comment on testing; it totally applies to (old) me.
 
 The bottom line:
 
-
-
-
   * Write unit tests.
-
 
   * When you find a bug, first write a test for it and then fix the bug.
 
-
   * When you find a bug, look for other possible instances of that bug, and fix them too.
-
 
 To learn more about testing in R packages, see the [Testing](http://r-pkgs.had.co.nz/tests.html) chapter in Hadley's [R packages book](amazon.com/exec/obidos/ASIN/1491910593/7210-20). Also see the [slides for my lecture on testing and debugging](http://kbroman.org/Tools4RR/assets/lectures/09_testdebug_withnotes.pdf) in my [Tools for Reproducible Research](http://kbroman.org/Tools4RR/) course.

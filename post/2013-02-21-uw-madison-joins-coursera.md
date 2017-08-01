@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2013-02-21 14:26:34+00:00
-layout: post
-link: http://kbroman.org/blog/2013/02/21/uw-madison-joins-coursera/
-slug: uw-madison-joins-coursera
 title: UW-Madison joins Coursera
-wordpress_id: 1343
+author: Karl Broman
+date: '2013-02-21'
 categories:
-- Academics
+  - Academics
 tags:
-- MOOCs
-- teaching
+  - MOOCs
+  - teaching
+slug: uw-madison-joins-coursera
 ---
 
 UW-Madison is joining Coursera to offer four massive open online courses (MOOCs).

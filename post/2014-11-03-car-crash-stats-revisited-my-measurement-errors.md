@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2014-11-03 17:01:21+00:00
-layout: post
-link: http://kbroman.org/blog/2014/11/03/car-crash-stats-revisited-my-measurement-errors/
-slug: car-crash-stats-revisited-my-measurement-errors
 title: 'Car crash stats revisited: My measurement errors'
-wordpress_id: 2280
+author: Karl Broman
+date: '2014-11-03'
 categories:
-- Statistics
+  - Statistics
 tags:
-- exploratory data analysis
-- graphics
+  - exploratory data analysis
+  - graphics
+slug: car-crash-stats-revisited-my-measurement-errors
 ---
 
 Last week, I [created revised versions](http://kbroman.org/blog/2014/10/29/improved-graphs-of-car-crash-stats/) of graphs of car crash statistics by state (including [an interactive version](https://www.biostat.wisc.edu/~kbroman/D3/car_crashes/)), from [a post](http://fivethirtyeight.com/datalab/which-state-has-the-worst-drivers/) by [Mona Chalabi](http://fivethirtyeight.com/contributors/mona-chalabi/) at [538](http://fivethirtyeight.com/).
@@ -22,23 +18,15 @@ I later emailed [Mona Chalabi](http://fivethirtyeight.com/contributors/mona-chal
 
 I was curious to look at how I'd done with my measurements and data entry. Here's a plot of my percent errors:
 
-[![Percent measurement errors in Karl's car crash stats](https://kbroman.files.wordpress.com/2014/11/crashstats_errors.png?w=450)](https://kbroman.files.wordpress.com/2014/11/crashstats_errors.png)
+![Percent measurement errors in Karl's car crash stats](https://kbroman.files.wordpress.com/2014/11/crashstats_errors.png)
 
 Not too bad, really. Here are the biggest problems:
 
-
-
-
-
   * Mississippi, non-distracted: off by 6%, but that corresponded to 0.5 mm.
-
 
   * Rhode Island and Ohio, speeding: off by 40 and 35%, respectively. I'd written down 8 and 9 mm rather than 13 and 14 mm.
 
-
   * Maine and Indiana, alcohol: wrote 15.5 and 14.5 mm, but typed 13.5 and 13 mm. In the former, I think I just misinterpreted my writing; in the latter, I think I wrote the number for the state below (Iowa).
-
-
 
 It's also interesting to note that my "total" and "non-distracted" were almost entirely under-estimates: probably an error in the measurement of the overall width of the bar chart.
 

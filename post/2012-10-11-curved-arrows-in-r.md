@@ -1,38 +1,27 @@
 ---
-author: kbroman
-comments: true
-date: 2012-10-11 05:40:20+00:00
-layout: post
-link: http://kbroman.org/blog/2012/10/11/curved-arrows-in-r/
-slug: curved-arrows-in-r
 title: Curved arrows in R
-wordpress_id: 1114
+author: Karl Broman
+date: '2012-10-11'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- graphics
+  - graphics
+slug: curved-arrows-in-r
 ---
 
 I briefly investigated how to draw curved arrows in R. Here's a small piece of the figure that I ultimately created:
 
-[![](http://kbroman.files.wordpress.com/2012/10/sample_mix-ups.png?w=224)](http://kbroman.files.wordpress.com/2012/10/sample_mix-ups.png)
+![](http://kbroman.files.wordpress.com/2012/10/sample_mix-ups.png)
 <!-- more -->
 
 A google search for "curved arrows in R" revealed three options:
 
-
-
-	
   * [`curvedarrow`](http://rgm2.lab.nig.ac.jp/RGM2/func.php?rd_id=diagram:curvedarrow) in the [diagram](http://cran.r-project.org/web/packages/diagram/) package
 
-	
   * The internal function `igraph.Arrows` within the [igraph](http://cran.r-project.org/web/packages/igraph) package (mentioned by Gabor Csardi [in R help](http://r.789695.n4.nabble.com/Curved-arrows-td886056.html))
 
-	
   * Using `xspline` for the shaft and adding the head "by hand" ([mentioned](http://r.789695.n4.nabble.com/Curved-arrows-tt886056.html#a886057) by Greg Snow)
-
-
 
 I wasn't too happy with how the arrow heads looked using the diagram package, and I didn't want to have to fiddle around with `xspline`, and igraph worked quite easily, so I went with that.
 
@@ -40,7 +29,7 @@ Plotting multiple arrows with different colors in a single call to `igraph.Arrow
 
 Here's [a bit of code I played with](http://www.biostat.wisc.edu/~kbroman/blog/igraph_arrows.R):
 
-[sourcecode language="r"]
+````r
 library(igraph)
 par(mar=rep(1,4))
 plot(0,0, type="n",xaxt="n", yaxt="n", xlab="", ylab="",
@@ -83,10 +72,10 @@ y <- y[1:8]+8
 iArrows(x1, y, x2, y,
         h.lwd=2, sh.lwd=2, sh.col=mycolors[1:8],
         curve=1 - 2*((1:8) %% 2), width=1, size=0.7)
-[/sourcecode]
+````
 
 And here's the corresponding figure:
 
-[![](http://kbroman.files.wordpress.com/2012/10/igraph_arrows1.png?w=300)](http://kbroman.files.wordpress.com/2012/10/igraph_arrows1.png)
+![](http://kbroman.files.wordpress.com/2012/10/igraph_arrows1.png)
 
 Note that the arrows at the top all have green arrow heads.

@@ -1,21 +1,17 @@
 ---
-author: kbroman
-comments: true
-date: 2015-11-24 15:25:25+00:00
-layout: post
-link: http://kbroman.org/blog/2015/11/24/fitting-linear-mixed-models-for-qtl-mapping/
-slug: fitting-linear-mixed-models-for-qtl-mapping
 title: Fitting linear mixed models for QTL mapping
-wordpress_id: 2430
+author: Karl Broman
+date: '2015-11-24'
 categories:
-- Genetics
-- Programming
-- R
-- Statistics
+  - Genetics
+  - Programming
+  - R
+  - Statistics
 tags:
-- mixed models
-- programming
-- QTL mapping
+  - mixed models
+  - programming
+  - QTL mapping
+slug: fitting-linear-mixed-models-for-qtl-mapping
 ---
 
 Linear mixed models (LMMs) have become widely used for dealing with population structure in human GWAS, and they're becoming increasing important for QTL mapping in model organisms, particularly for the analysis of advanced intercross lines (AIL), which often exhibit variation in the relationships among individuals.
@@ -34,29 +30,15 @@ First, a shout to [Artem Tarasov](https://github.com/lomereiter), who wrote a [s
 
 Back to the model fit:
 
-
-
-
-
   * For a fixed value of the heritability, _h_, we have var(_e_) = _v[hK + (1-h)I] = vV_ where _V_ is known. And so we end up with a general least squares problem, which we can fit in order to estimate _b_ and _v_.
-
-
 
   * And actually, if you take the eigen decomposition of _K_, say _K = UDU'_, it turns out that you can write _hK + (1-h)I = hUDU' + (1-h)UU' = U[hD + (1-h)I]U'_. That is, the eigenvectors of _K_ are the same as the eigenvectors of _hK + (1-h)I_. And so if you pre-multiply _y_ and _X_ by _U'_, you end up with a weighted least squares problem, which is way faster to fit than a general least squares problem.
 
-
-
   * Having fit the weighted least squares problem to estimate _b_ and _v_, you can then calculate the corresponding log likelihood (or, better, the restricted log likelihood, if you want to do REML).
-
-
 
   * You're then left with a one-dimensional optimization problem (optimizing the log likelihood over _h_), which you can solve by [Brent's method](https://en.wikipedia.org/wiki/Brent%27s_method).
 
-
-
   * That's it!
-
-
 
 It seems quite obvious in retrospect. It's a bit embarrassing that it's taken me so long to come to this understanding.
 

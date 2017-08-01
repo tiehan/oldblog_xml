@@ -1,25 +1,17 @@
 ---
-author: kbroman
-comments: true
-date: 2011-10-20 00:25:38+00:00
-layout: post
-link: http://kbroman.org/blog/2011/10/19/parachutes/
-slug: parachutes
 title: Parachutes
-wordpress_id: 535
+author: Karl Broman
+date: '2011-10-19'
 categories:
-- Genetics
-- Statistics
+  - Genetics
+  - Statistics
 tags:
-- seminars
+  - seminars
+slug: parachutes
 ---
 
 I went to a great talk today by [David Goldstein](http://humangenome.duke.edu/people/david-goldstein), which I might write about further later since he said many of things of considerable interest. But I had to quickly point to an interesting paper he mentioned: [Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials](http://www.bmj.com/content/327/7429/1459.full.pdf). The main conclusion:
 
-
-
 <blockquote>We think that everyone might benefit if the most radical protagonists of evidence based medicine organised and participated in a double blind, randomised, placebo controlled, crossover trial of the parachute.</blockquote>
-
-
 
 Make sure to read the statement regarding the authors' contributions.

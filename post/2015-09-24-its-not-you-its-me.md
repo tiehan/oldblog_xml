@@ -1,19 +1,15 @@
 ---
-author: kbroman
-comments: true
-date: 2015-09-24 20:16:52+00:00
-layout: post
-link: http://kbroman.org/blog/2015/09/24/its-not-you-its-me/
-slug: its-not-you-its-me
 title: It's not you, it's me
-wordpress_id: 2409
+author: Karl Broman
+date: '2015-09-24'
 categories:
-- Programming
-- R
+  - Programming
+  - R
 tags:
-- code
-- debugging
-- programming
+  - code
+  - debugging
+  - programming
+slug: its-not-you-its-me
 ---
 
 Somehow when my code stops working, my first (and second, and third) reaction is to blame everything except my own code. ("It's not _me_, it's _you_.")
@@ -22,19 +18,11 @@ And almost always, it's my own code that's the problem (hence the title of this 
 
 I spent the day trying to resolve a bug in my early-in-development R package, [qtl2geno](https://github.com/kbroman/qtl2geno). In the process, I blamed
 
-
-
-
-
   * TravisCI for not handling `system.file()` properly.
-
 
   * R-devel for having broken `system.file()`.
 
-
   * `data.table::fread()` for treating `sep=NULL` differently on different operating systems.
-
-
 
 Of course, none of these were true. I was just passing `sep=NULL` to `data.table::fread()`, and that worked in the previous version, but doesn't work in the latest release on [CRAN](https://cran.r-project.org), and I hadn't yet installed the latest version of [data.table](https://github.com/Rdatatable/data.table) on my Mac, but Travis and my junky Windows laptop had the latest version.
 
@@ -46,9 +34,9 @@ The whole thing started off with my [qtl2geno](https://github.com/kbroman/qtl2ge
 
 The problem line was in a [vignette](https://github.com/kbroman/qtl2geno/blob/master/vignettes/user_guide.Rmd):
 
-[sourcecode]
+````
 grav2 <- read_cross2( system.file("extdata", "grav2.zip", package="qtl2geno") )
-[/sourcecode]
+````
 
 The changes I'd been making to my package didn't seem to have anything to do with this, so I concluded that the problem was `system.file()`. Why that would have worked before but not now, I couldn't say, but I figured maybe Travis was installing things differently than before.
 
@@ -73,4 +61,3 @@ The guidelines say, "squash all your commits together," so I spent some time get
 And so then I finally installed the updated version of data.table on my Mac, and saw that there was no operating system dependence; the differences I was seeing were just because of the old vs new version of data.table.
 
 So data.table was updated in a way where `sep=NULL` was no longer working, and in my own code, I had relied on that. So six hours, [many tweets](https://twitter.com/kwbroman/status/647125510686920705), lots of blaming of others, and finally I'd worked out that it was all my own fault.
-

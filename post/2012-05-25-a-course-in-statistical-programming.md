@@ -1,20 +1,16 @@
 ---
-author: kbroman
-comments: true
-date: 2012-05-25 14:14:23+00:00
-layout: post
-link: http://kbroman.org/blog/2012/05/25/a-course-in-statistical-programming/
-slug: a-course-in-statistical-programming
 title: A course in statistical programming
-wordpress_id: 987
+author: Karl Broman
+date: '2012-05-25'
 categories:
-- Programming
-- R
-- Statistics
+  - Programming
+  - R
+  - Statistics
 tags:
-- computing
-- reproducible research
-- teaching
+  - computing
+  - reproducible research
+  - teaching
+slug: a-course-in-statistical-programming
 ---
 
 Graduate students in statistics often take (or at least have the opportunity to take) a statistical computing course, but often such courses are focused on methods (like numerical linear algebra, the EM algorithm, and MCMC) and not on actual coding.
@@ -33,98 +29,62 @@ I would like to develop a similar such course at [Wisconsin](http://www.biostat.
 
 I have in mind several basic principles:
 
-
-
-
   * be self-sufficient
-
 
   * get the right answer
 
-
   * document what you did (so that you will understand what you did 6 months later)
-
 
   * if primary data change, be able to re-run the analysis without a lot of work
 
-
   * are your simulation results reproducible?
-
 
   * reuse of code (others' and your own) rather than starting from scratch every time
 
-
   * make methods accessible to (and used by) others
-
-
 
 Here are my current thoughts about the topics to include in such a course.  The key aim would be to make students aware of the basic principles and issues: to give them a good base from which to learn on their own.  Homework would include interesting and realistic programming assignments plus create a Sweave-type document and an R package.
 
-
-
   * Basic unix tools (find; df; top; ps ux; grep); unix on Mac and windows
-
 
   * Emacs/vim/other editors (rstudio/eclipse)
 
-
   * Latex (for papers; for presentations)
-
 
   * slides for talks; posters; figures/tables
 
-
-  * Advanced R (fancy data structures; functions; object-oriented stuff) 
-
+  * Advanced R (fancy data structures; functions; object-oriented stuff)
 
   * Advanced R graphics
 
-
   * R packages
-
 
   * Sweave/asciidoc/knitr
 
-
   * minimal Perl (or Python or Ruby); example of data manipulation
-
 
   * Minimal C (or C++); examples of speed-up
 
-
   * version control (eg git or mercurial); backups
-
 
   * reproducible research ideas
 
-
   * data management
-
 
   * managing projects: data, analyses, results, papers
 
-
   * programming style (readable, modular); general but not too general
-
 
   * debugging/profiling/testing
 
-
   * high-throughput computing; parallel computing; managing big jobs
-
 
   * finding answers to questions: man pages; documentation; web
 
-
   * more on visualization; dynamic graphics
-
 
   * making a web page; html & css; simple cgi-type web forms?
 
-
   * writing and managing email
 
-
   * managing references to journal articles
-
-

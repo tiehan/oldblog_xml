@@ -1,19 +1,15 @@
 ---
-author: kbroman
-comments: true
-date: 2015-06-23 04:21:46+00:00
-layout: post
-link: http://kbroman.org/blog/2015/06/22/mongodb-with-d3-js/
-slug: mongodb-with-d3-js
 title: MongoDB with D3.js
-wordpress_id: 2349
+author: Karl Broman
+date: '2015-06-22'
 categories:
-- Programming
+  - Programming
 tags:
-- D3
-- graphics
-- mongoDB
-- programming
+  - D3
+  - graphics
+  - mongoDB
+  - programming
+slug: mongodb-with-d3-js
 ---
 
 I consider interactive data visualization to be the critical tool for exploration of high-dimensional data.
@@ -28,23 +24,13 @@ So, I've been trying to come to understand the whole database business, and how 
 
 <!-- more -->
 
-
-
 ### Learning MongoDB
-
-
 
 I thought [mongoDB](http://www.mongodb.org) seemed like a good database to try:
 
-
-
-
   * storage of general documents seems a good match for the sort of data I work with
 
-
   * use of JSON/BSON seems a good match for [D3.js](http://d3js.org)
-
-
 
 So I've been taking an online-course though [MongoDB University](https://university.mongodb.com/) -- the [one for Node.js developers](https://university.mongodb.com/courses/M101JS/about). I should have done [the more general one, using Python](https://university.mongodb.com/courses/M101P/about), but I was thinking it'd be interesting to learn [Node](http://nodejs.org), which is basically command-line scripting in javascript. I guess the advantage of node is that you can just write javascript. But personally I prefer to switch to the language appropriate to the task, so I'm not too hot on node. But maybe I just haven't come to understand how best to make use of the whole callback function business.
 
@@ -52,11 +38,7 @@ MongoDB is not all that hard. It's just kind of boring. The MongoDB Uni class is
 
 The obvious bits with a database: how to get stuff into it and then back out of it. And then I guess deleting or changing stuff. So that's all fine. I also learned about making indexes, so that you can more quickly get stuff out later. I don't think my needs for these things are all that complicated. And so I think I understand those bits.
 
-
-
 ### Getting the data for the data vis
-
-
 
 The last key step that I was pondering last night: how do I, based on some user interaction with a data visualization (clicking on a point, or some such), fire off a request to the database and get the data back?
 
@@ -68,11 +50,7 @@ I'd been poking around in [pymongo](http://api.mongodb.org/python/current/tutori
 
 So I looked around for how to do this with mongoDB, found [sleepy mongoose](https://github.com/10gen-labs/sleepy.mongoose), but that seemed like more than I wanted, and then came to [bottle](http://bottlepy.org/docs/dev/index.html), which seemed like what I needed to handle the http bit. The example on the front page is just what I want: take a name from a URL and use it as input to some function, and give results back.
 
-
-
 ### MongoDB/D3 illustration
-
-
 
 The goal of all this: as part of some data visualization, the user will hover over or click a point, and this will lead to a request to the database, and then a plot of the data that comes back.
 
@@ -88,13 +66,6 @@ The [D3 code (in coffeescript](https://github.com/kbroman/d3examples/tree/master
 
 This [MongoDB/D3 illustration](https://github.com/kbroman/d3examples/blob/master/mongodb/) is a toy example, but it represents an important step for me, personally. I'm rather proud of it.
 
-[![Anscombe's quartet, set 2](https://kbroman.files.wordpress.com/2015/06/anscombe_2.png?w=660)](https://kbroman.files.wordpress.com/2015/06/anscombe_2.png)
+![Anscombe's quartet, set 2](https://kbroman.files.wordpress.com/2015/06/anscombe_2.png)
 
 I don't actually have a live example of this. That's the next thing: how to have this running on a proper web server, rather than just locally.
-
-
-
-
-
-
-

@@ -1,18 +1,14 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-03 04:09:37+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/02/charsetutf-8/
-slug: charsetutf-8
 title: charset="utf-8"
-wordpress_id: 1364
+author: Karl Broman
+date: '2013-03-02'
 categories:
-- Programming
+  - Programming
 tags:
-- D3
-- javascript
-- programming
+  - D3
+  - javascript
+  - programming
+slug: charsetutf-8
 ---
 
 To use the latest version of [D3](http://d3js.org), you need to use `charset="utf-8"` in the call to `<script>`.
@@ -23,7 +19,7 @@ The slides were working fine locally on my laptop, but they weren't working on m
 
 I figured out that I needed to add `charset="utf-8"`, like so:
 
-[sourcecode language="html"]
+````html
 <script charset="utf-8" type="text/javascript" src="js/d3.js">
 </script>
-[/sourcecode]
+````

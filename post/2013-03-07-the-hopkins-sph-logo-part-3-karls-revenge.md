@@ -1,17 +1,13 @@
 ---
-author: kbroman
-comments: true
-date: 2013-03-07 00:46:30+00:00
-layout: post
-link: http://kbroman.org/blog/2013/03/06/the-hopkins-sph-logo-part-3-karls-revenge/
-slug: the-hopkins-sph-logo-part-3-karls-revenge
 title: 'The Hopkins SPH logo, part 3: Karl''s revenge'
-wordpress_id: 1400
+author: Karl Broman
+date: '2013-03-06'
 categories:
-- Academics
+  - Academics
 tags:
-- seminars
-- stupid
+  - seminars
+  - stupid
+slug: the-hopkins-sph-logo-part-3-karls-revenge
 ---
 
 I'm finally back to the story of the [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) [logo](http://www.jhsph.edu/identity/coreIdentity/logoIntro.shtml).
@@ -32,17 +28,13 @@ Here's Brian's alternative logo, next to the original.  Well, it's Brian's desig
 
 <!-- more -->
 
-
-
-[![JHBSPH logo](http://kbroman.files.wordpress.com/2013/03/logo.png?w=110)](http://kbroman.files.wordpress.com/2013/03/logo.png) [![Alternative logo](http://kbroman.files.wordpress.com/2013/03/altlogo.png?w=109)](http://kbroman.files.wordpress.com/2013/03/altlogo.png)
-
-
+![JHBSPH logo](http://kbroman.files.wordpress.com/2013/03/logo.png) ![Alternative logo](http://kbroman.files.wordpress.com/2013/03/altlogo.png)
 
 And [here's a PDF of the logos in context](http://kbroman.files.wordpress.com/2013/03/evidence.pdf).
 
 And here's the month of beer:
 
-[![Month of beer](http://kbroman.files.wordpress.com/2013/03/month_of_beer.jpg?w=300)](http://kbroman.files.wordpress.com/2013/03/month_of_beer.jpg)
+![Month of beer](http://kbroman.files.wordpress.com/2013/03/month_of_beer.jpg)
 
 Ingo was willing to restock if necessary, but that wasn't allowed.  We still have most of those coasters; they've been great toys for the kids.
 
@@ -54,7 +46,7 @@ I gave another of those informal statistics lectures, this time on "[What is reg
 
 Here's the second month of beer:
 
-[![Second month of beer](http://kbroman.files.wordpress.com/2013/03/second_month_of_beer.jpg?w=300)](http://kbroman.files.wordpress.com/2013/03/second_month_of_beer.jpg)
+![Second month of beer](http://kbroman.files.wordpress.com/2013/03/second_month_of_beer.jpg)
 
 It all seems a bit juvenile in retrospect.  I guess I'm getting (or _have gotten_) old.
 

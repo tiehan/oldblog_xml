@@ -1,16 +1,12 @@
 ---
-author: kbroman
-comments: true
-date: 2012-01-26 13:00:02+00:00
-layout: post
-link: http://kbroman.org/blog/2012/01/26/muted-startup/
-slug: muted-startup
 title: Muted startup
-wordpress_id: 640
+author: Karl Broman
+date: '2012-01-26'
 categories:
-- Apple
+  - Apple
 tags:
-- Mac
+  - Mac
+slug: muted-startup
 ---
 
 It annoys me when my computer (or, even more, someone else's computer) makes a gratuitous noise upon startup.
@@ -21,12 +17,6 @@ So, I was very interested to read [how to disable the start up sound](http://lif
 
 It's nice and easy. Here are the scripts I use; the instructions are in the comments at the top of each file.
 
-
-
-	
   * [mute.sh](http://www.biostat.wisc.edu/~kbroman/scripts/mute.sh)
 
-	
   * [unmute.sh](http://www.biostat.wisc.edu/~kbroman/scripts/unmute.sh)
-
-
