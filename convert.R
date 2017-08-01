@@ -159,3 +159,9 @@ if (length(links3)) {
   message('These links on the new website cannot be mapped back to the old website:')
   cat(links3, sep = '\n')
 }
+
+local({
+  if (!dir.exists(d <- '../kbroman-blog/content/')) return()
+  # unlink(file.path(d, 'post'), recursive = TRUE)
+  file.copy('post', d, recursive = TRUE)
+})
