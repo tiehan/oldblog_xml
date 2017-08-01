@@ -23,3 +23,8 @@ if (blogdown:::is_osx()) {
 # system('pip install --upgrade -r exitwp/pip_requirements.txt')
 system('cd exitwp; python exitwp.py && mv build/jekyll/*/_posts ../post')
 
+# rename *.markdown to *.md
+files = list.files('post', '[.]markdown$', full.names = TRUE)
+file.rename(files, sub('[.]markdown$', '.md', files))
+
+files = list.files('post', '[.]md$', full.names = TRUE)
