@@ -137,3 +137,25 @@ for (f in files) {
 
   blogdown:::remove_extra_empty_lines(f)
 }
+
+# old permalinks
+links1 = local({
+  x = readLines(xml_file)
+  r = '\\s*<link>http://kbroman.org/blog/(.*)</link>\\s*'
+  i = grep(r, x)
+  gsub(r, '\\1', x[i])
+})
+
+# new permalinks
+links2 = local({
+  res = blogdown:::collect_yaml(c('date', 'slug'), 'post', sort = FALSE, uniq = FALSE)
+  mapply(function(d, s) {
+    paste0(gsub('-', '/', d), '/', s, '/')
+  }, res$date, res$slug, USE.NAMES = FALSE)
+})
+
+links3 = setdiff(links2, links1)
+if (length(links3)) {
+  message('These links on the new website cannot be mapped back to the old website:')
+  cat(links3, sep = '\n')
+}
