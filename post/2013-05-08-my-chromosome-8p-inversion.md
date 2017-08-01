@@ -1,5 +1,5 @@
 ---
-title: "My" chromosome 8p inversion
+title: '"My" chromosome 8p inversion'
 author: Karl Broman
 date: '2013-05-08'
 categories:
