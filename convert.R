@@ -1,8 +1,13 @@
+xml_file = 'kbroman.xml'
+
+old_url = 'https?://kbroman.wordpress.com'
+new_url = 'http://kbroman.org/blog'
+
 # use the new domain
-blogdown:::process_file(xml_file <- 'kbroman.xml', function(x) {
+blogdown:::process_file(xml_file, function(x) {
   # replace possible invalid dates with a random date
   x = gsub('0000-00-00 00:00:00', '2017-07-28 00:00:00', x)
-  x = gsub('https?://kbroman.wordpress.com', 'http://kbroman.org/blog', x)
+  x = gsub(old_url, new_url, x)
   # move possible images out of <pre></pre>
   x = gsub('^(\\s*)(<a .*<img .*)(</code></pre>\\s*)$', '\\1\\3\n\\2\n', x)
   x
@@ -32,6 +37,7 @@ files = list.files('post', '[.]md$', full.names = TRUE)
 # all possible authors
 blogdown:::collect_yaml('author', 'post')
 
+# map author id's to author names
 authors = c(
   kbroman = 'Karl Broman'
 )
@@ -39,7 +45,7 @@ authors = c(
 
 for (f in files) {
   message('Processing ', f)
-  # post/2016-08-31-forcats-0-1-0.md contains emoji and yaml::yaml.load cannot handle them
+  # possible Unicode characters that yaml::yaml.load cannot handle (e.g. emoji)
   blogdown:::process_file(f, function(x) {
     gsub('(\\\\u[A-Z0-9]{4})+', '', x)
   })
@@ -73,14 +79,19 @@ for (f in files) {
   blogdown:::remove_extra_empty_lines(f)
 
   blogdown:::process_file(f, function(x) {
+    # <a><img></a> to [![]()]()
     x = gsub(
       '^( {4,})<a href="([^"]+)"[^>]*><img src="\\2[^"]*" alt="([^"]*)"[^>]*></a>',
       '\n\n[![\\3](\\2)](\\2)\n\n\\1', x
     )
+    # do not scale images to a certain width
     x = gsub('([.][a-z]+)[?]w=[0-9]+', '\\1', x)
+    # [![](link)](link) to ![](link)
     x = gsub('\\[!\\[([^]]*)]\\(([^)]+)\\)]\\(\\2\\)', '![\\1](\\2)', x)
     x = gsub('\\[!\\[([^]]*)]\\(([^)]+)([.][a-z]+)\\)]\\([^)]+\\3\\)', '![\\1](\\2\\3)', x)
+    # WP shortcode [caption] to <p class="caption">
     x = gsub('^\\[caption[^]]*](.*\\)) (.*)\\[/caption]$', '\\1\n\n<p class="caption">\\2</p>', x)
+    # WP shortcode [sourcecode] to ````lang
     x = gsub('^\\[sourcecode language="([^"]+)"]', '````\\1', x)
     x = gsub('^\\[sourcecode[^]]*]', '````', x)
     x = gsub('^\\[code lang=([a-z]+)]', '````\\1', x)
@@ -106,6 +117,7 @@ for (f in files) {
     x
   })
 
+  # genius ideas to decide whether we add ```r to indented code blocks
   blogdown:::process_file(f, function(x) {
     maybe_code = function(x) grepl('^ {4}', x)
     is_blank = function(x) grepl('^\\s*$', x)
@@ -129,6 +141,7 @@ for (f in files) {
     x
   })
 
+  # move inline images ![]() to separate paragraphs
   blogdown:::process_file(f, function(x) {
     i = grep('^\\s*[[!]', x, invert = TRUE)
     x[i] = gsub('(!\\[[^]]*]\\([^)]+\\))', '\n\n\\1\n\n', x[i])
@@ -141,7 +154,7 @@ for (f in files) {
 # old permalinks
 links1 = local({
   x = readLines(xml_file)
-  r = '\\s*<link>http://kbroman.org/blog/(.*)</link>\\s*'
+  r = paste0('\\s*<link>', new_url, '/(.*)</link>\\s*')
   i = grep(r, x)
   gsub(r, '\\1', x[i])
 })
