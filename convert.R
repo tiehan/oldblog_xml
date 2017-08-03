@@ -13,20 +13,25 @@ blogdown:::process_file(xml_file, function(x) {
   x
 })
 
-# check if there are any XML problems (should be rare)
-system('xmllint --noout *.xml')
+# Do not run this chunk of code if you do not know how to run Python or use
+# Exitwp. Use https://github.com/yihui/travis-exitwp instead, and download the
+# Markdown posts to the post/ directory here.
+{
+  # check if there are any XML problems (should be rare)
+  system('xmllint --noout *.xml')
 
-unlink(c('post', 'exitwp/build', 'exitwp/wordpress-xml/*.xml'), recursive = TRUE)
-file.copy(xml_file, 'exitwp/wordpress-xml/')
+  unlink(c('post', 'exitwp/build', 'exitwp/wordpress-xml/*.xml'), recursive = TRUE)
+  file.copy(xml_file, 'exitwp/wordpress-xml/')
 
-# I'm using the Homebrew version of Python, and I need its bin path to go before /usr/bin
-if (blogdown:::is_osx()) {
-  Sys.setenv(PATH = paste('/usr/local/opt/python/libexec/bin', Sys.getenv('PATH'), sep = ':'))
+  # I'm using the Homebrew version of Python, and I need its bin path to go before /usr/bin
+  if (blogdown:::is_osx()) {
+    Sys.setenv(PATH = paste('/usr/local/opt/python/libexec/bin', Sys.getenv('PATH'), sep = ':'))
+  }
+
+  # you may need to install a few packages first:
+  # system('pip install --upgrade -r exitwp/pip_requirements.txt')
+  system('cd exitwp; python exitwp.py && mv build/jekyll/*/_posts ../post')
 }
-
-# you may need to install a few packages first:
-# system('pip install --upgrade -r exitwp/pip_requirements.txt')
-system('cd exitwp; python exitwp.py && mv build/jekyll/*/_posts ../post')
 
 # rename *.markdown to *.md
 files = list.files('post', '[.]markdown$', full.names = TRUE)
